@@ -1,0 +1,40 @@
+generations:
+  - name: "First Generation (E12)"
+    start_year: 1972
+    end_year: 1981
+    description: "The original BMW 5 Series replaced the New Class sedans and established BMW's numerical naming convention. Available only as a four-door sedan, it featured engines ranging from 1.8L to 3.0L, with the fuel-injected models offering the best performance. The E12 combined practical family car versatility with engaging driving dynamics, setting the template for future 5 Series models."
+
+  - name: "Second Generation (E28)"
+    start_year: 1981
+    end_year: 1988
+    description: "The E28 refined the 5 Series formula with improved aerodynamics, updated technology, and enhanced comfort. Engine options ranged from economical six-cylinders to the powerful M535i. This generation also introduced the first M5, featuring a modified version of the M1's 3.5L straight-six engine producing 282 HP, creating the template for the high-performance luxury sedan segment."
+
+  - name: "Third Generation (E34)"
+    start_year: 1988
+    end_year: 1996
+    description: "The E34 represented a significant step forward in refinement, build quality, and technology. Available as a sedan and wagon (Touring), it offered a range of inline-six engines and V8 options. The E34 M5 continued as the range-topper, eventually receiving a 3.8L engine with 340 HP. This generation established the 5 Series as a technology leader with features like electronic damping control and integrated car phones."
+
+  - name: "Fourth Generation (E39)"
+    start_year: 1995
+    end_year: 2003
+    description: "Widely regarded as one of the finest 5 Series generations, the E39 balanced dynamic excellence with luxury and technology. It featured a sophisticated chassis with aluminum components, a range of refined straight-six and V8 engines, and elegant, timeless styling. The E39 M5 with its 400 HP V8 is particularly celebrated. This generation represented peak mechanical refinement before the introduction of more complex electronic systems."
+
+  - name: "Fifth Generation (E60/E61)"
+    start_year: 2003
+    end_year: 2010
+    description: "The controversial E60 featured radical styling by Chris Bangle and introduced far more advanced technology, including iDrive infotainment and active steering. Available as a sedan (E60) and wagon (E61), it offered improved space and refined dynamics. The E60 M5 featured a Formula 1-inspired 5.0L V10 producing 500 HP. While initially polarizing, this generation has gained appreciation for its pioneering design and technology."
+
+  - name: "Sixth Generation (F10/F11/F07)"
+    start_year: 2010
+    end_year: 2017
+    description: "The F10 generation returned to more conservative styling while advancing technology and refinement. Available as a sedan (F10), wagon (F11), and fastback Gran Turismo (F07), it offered a range of turbocharged engines, advanced driver assistance systems, and luxury features. The F10 M5 switched to a twin-turbocharged V8 with up to 575 HP. This generation prioritized comfort and technology, though some felt it lost some of the driver engagement of earlier models."
+
+  - name: "Seventh Generation (G30/G31)"
+    start_year: 2017
+    end_year: 2023
+    description: "The G30 5 Series refined the formula with evolutionary styling, reduced weight through increased use of aluminum and high-strength steel, and advanced technology including semi-autonomous driving capabilities. Available as a sedan (G30) and wagon (G31), it offered a range of efficient turbocharged engines, plug-in hybrid options, and the M5 with up to 625 HP and all-wheel drive. This generation successfully balanced luxury, technology, and driving dynamics."
+
+  - name: "Eighth Generation (G60)"
+    start_year: 2023
+    end_year: null
+    description: "The latest 5 Series features a more tech-focused approach with a cleaner design language, increased electrification, and advanced digital features. It grows slightly in size while maintaining proportional elegance. Powertrain options range from mild hybrids to plug-in hybrids, with the all-electric i5 variant joining the lineup. The interior adopts BMW's latest curved display technology and minimalist design approach. Throughout its evolution, the 5 Series has maintained its position as a benchmark in the executive sedan segment, balancing luxury, technology, and driving dynamics."
