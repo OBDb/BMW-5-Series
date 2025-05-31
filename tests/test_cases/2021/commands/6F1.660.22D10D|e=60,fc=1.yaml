@@ -1,0 +1,26 @@
+command_id: 6F1.660.22D10D|e=60,fc=1
+test_cases:
+- response: |-
+    660F1100B62D10D0001
+    660F12131EB000131EB
+  expected_values:
+    BMW_ODO1: 78315
+    BMW_ODO2: 78315
+- response: |-
+    660F1100B62D10D0001
+    660F121322000013220
+  expected_values:
+    BMW_ODO1: 78368
+    BMW_ODO2: 78368
+- response: |-
+    660F1100B62D10D0001
+    660F121325F0001325F
+  expected_values:
+    BMW_ODO1: 78431
+    BMW_ODO2: 78431
+- response: |-
+    660F1100B62D10D0001
+    660F12132A3000132A3
+  expected_values:
+    BMW_ODO1: 78499
+    BMW_ODO2: 78499
