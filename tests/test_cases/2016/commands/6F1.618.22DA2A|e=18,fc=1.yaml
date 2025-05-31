@@ -19,6 +19,12 @@ test_cases:
     BMW_TQ_CNVRT_RPM: 1674
     BMW_TRANS_SHAFT_RPM: 783
 - response: |-
+    618F1100762DA2A07C5
+    618F1210C20FFFFFFFF
+  expected_values:
+    BMW_TQ_CNVRT_RPM: 1989
+    BMW_TRANS_SHAFT_RPM: 3104
+- response: |-
     618F1100762DA2A087C
     618F1210A54FFFFFFFF
   expected_values:

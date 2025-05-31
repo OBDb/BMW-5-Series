@@ -88,3 +88,11 @@ test_cases:
     BMW_TIME_D: 0
     BMW_TIME_M: 0
     BMW_TIME_S: 213
+- response: |-
+    618F1100F62DA3700D5
+    618F1212BBC00015010
+    618F12200000C64FFFF
+  expected_values:
+    BMW_TIME_D: 0
+    BMW_TIME_M: 43
+    BMW_TIME_S: 213

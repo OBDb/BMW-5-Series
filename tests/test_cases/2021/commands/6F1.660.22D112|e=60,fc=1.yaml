@@ -6,9 +6,9 @@ test_cases:
 - response: 660F10562D1126F70
   expected_values:
     BMW_AAT: 15.5
-- response: 660F10562D1127E9F
+- response: 660F10562D1129EB4
   expected_values:
-    BMW_AAT: 23
-- response: 660F10562D112898A
+    BMW_AAT: 39
+- response: 660F10562D1129FA0
   expected_values:
-    BMW_AAT: 28.5
+    BMW_AAT: 39.5
