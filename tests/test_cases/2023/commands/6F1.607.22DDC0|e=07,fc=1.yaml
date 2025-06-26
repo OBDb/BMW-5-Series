@@ -1,50 +1,44 @@
 command_id: 6F1.607.22DDC0|e=07,fc=1
 test_cases:
-- response: |-
-    607F1100A62DDC00A89
-    607F1210AED0AE801FF
-  expected_values:
+- expected_values:
+    BMW_HVBAT_CT_MAX: 28.96
+    BMW_HVBAT_CT_MIN: 25.96
+  response: |-
+    607F1100A62DDC00A24
+    607F1210B500ACB01FF
+- expected_values:
     BMW_HVBAT_CT_MAX: 27.97
     BMW_HVBAT_CT_MIN: 26.97
-- response: |-
-    607F1100A62DDC00A8B
-    607F1210AEF0AE901FF
-  expected_values:
+  response: |-
+    607F1100A62DDC00A89
+    607F1210AED0AE801FF
+- expected_values:
     BMW_HVBAT_CT_MAX: 27.99
     BMW_HVBAT_CT_MIN: 26.99
-- response: |-
-    607F1100A62DDC00A8C
-    607F1210AF00AEA01FF
-  expected_values:
-    BMW_HVBAT_CT_MAX: 28
-    BMW_HVBAT_CT_MIN: 27
-- response: |-
-    607F1100A62DDC00BB5
-    607F1210C690C0401FF
-  expected_values:
-    BMW_HVBAT_CT_MAX: 31.77
-    BMW_HVBAT_CT_MIN: 29.97
-- response: |-
-    607F1100A62DDC00BB6
-    607F1210C1A0BC101FF
-  expected_values:
-    BMW_HVBAT_CT_MAX: 30.98
-    BMW_HVBAT_CT_MIN: 29.98
-- response: |-
-    607F1100A62DDC00BBA
-    607F1210C750C0F01FF
-  expected_values:
-    BMW_HVBAT_CT_MAX: 31.89
-    BMW_HVBAT_CT_MIN: 30.02
-- response: |-
-    607F1100A62DDC00BCF
-    607F1210C770C1401FF
-  expected_values:
-    BMW_HVBAT_CT_MAX: 31.91
-    BMW_HVBAT_CT_MIN: 30.23
-- response: |-
-    607F1100A62DDC00BDB
-    607F1210C3F0BE801FF
-  expected_values:
-    BMW_HVBAT_CT_MAX: 31.35
-    BMW_HVBAT_CT_MIN: 30.35
+  response: |-
+    607F1100A62DDC00A8B
+    607F1210AEF0AE901FF
+- expected_values:
+    BMW_HVBAT_CT_MAX: 30.08
+    BMW_HVBAT_CT_MIN: 29
+  response: |-
+    607F1100A62DDC00B54
+    607F1210BC00B9F01FF
+- expected_values:
+    BMW_HVBAT_CT_MAX: 31.55
+    BMW_HVBAT_CT_MIN: 29.93
+  response: |-
+    607F1100A62DDC00BB1
+    607F1210C530C0001FF
+- expected_values:
+    BMW_HVBAT_CT_MAX: 31.84
+    BMW_HVBAT_CT_MIN: 30.6
+  response: |-
+    607F1100A62DDC00BF4
+    607F1210C700C2801FF
+- expected_values:
+    BMW_HVBAT_CT_MAX: 32.03
+    BMW_HVBAT_CT_MIN: 30.73
+  response: |-
+    607F1100A62DDC00C01
+    607F1210C830C4101FF

@@ -1,30 +1,44 @@
 command_id: 6F1.607.22DDBC|e=07,fc=1
 test_cases:
-- response: |-
-    607F1100962DDBC0023
-    607F12103610118FFFF
-  expected_values:
-    BMW_HVBAT_SOC: 3.5
-    BMW_HVBAT_SOC_MAX: 86.5
+- expected_values:
+    BMW_HVBAT_SOC: 2.9
+    BMW_HVBAT_SOC_MAX: 87.5
     BMW_HVBAT_SOC_MIN: 28
-- response: |-
-    607F1100962DDBC0031
-    607F121035C0118FFFF
-  expected_values:
+  response: |-
+    607F1100962DDBC001D
+    607F121036B0118FFFF
+- expected_values:
+    BMW_HVBAT_SOC: 4.7
+    BMW_HVBAT_SOC_MAX: 88
+    BMW_HVBAT_SOC_MIN: 28
+  response: |-
+    607F1100962DDBC002F
+    607F12103700118FFFF
+- expected_values:
     BMW_HVBAT_SOC: 4.9
     BMW_HVBAT_SOC_MAX: 86
     BMW_HVBAT_SOC_MIN: 28
-- response: |-
-    607F1100962DDBC02FF
-    607F12103610118FFFF
-  expected_values:
-    BMW_HVBAT_SOC: 76.7
-    BMW_HVBAT_SOC_MAX: 86.5
+  response: |-
+    607F1100962DDBC0031
+    607F121035C0118FFFF
+- expected_values:
+    BMW_HVBAT_SOC: 25.5
+    BMW_HVBAT_SOC_MAX: 87.5
     BMW_HVBAT_SOC_MIN: 28
-- response: |-
-    607F1100962DDBC0300
-    607F12103610118FFFF
-  expected_values:
+  response: |-
+    607F1100962DDBC00FF
+    607F121036B0118FFFF
+- expected_values:
+    BMW_HVBAT_SOC: 25.6
+    BMW_HVBAT_SOC_MAX: 87.5
+    BMW_HVBAT_SOC_MIN: 28
+  response: |-
+    607F1100962DDBC0100
+    607F121036B0118FFFF
+- expected_values:
     BMW_HVBAT_SOC: 76.8
-    BMW_HVBAT_SOC_MAX: 86.5
+    BMW_HVBAT_SOC_MAX: 85.5
     BMW_HVBAT_SOC_MIN: 28
+  response: |-
+    607F1100962DDBC0300
+    607F12103570118FFFF
