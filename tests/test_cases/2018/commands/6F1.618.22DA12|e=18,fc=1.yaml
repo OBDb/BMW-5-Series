@@ -2,10 +2,31 @@ command_id: 6F1.618.22DA12|e=18,fc=1
 test_cases:
 - expected_values:
     BMW_ATF_TEMP: 0
+  response: 618F10562DA120044
+- expected_values:
+    BMW_ATF_TEMP: 0
+  response: 618F10562DA120045
+- expected_values:
+    BMW_ATF_TEMP: 0
+  response: 618F10562DA12004C
+- expected_values:
+    BMW_ATF_TEMP: 0
+  response: 618F10562DA120063
+- expected_values:
+    BMW_ATF_TEMP: 0
   response: 618F10562DA120075
 - expected_values:
     BMW_ATF_TEMP: 0
+  response: 618F10562DA120078
+- expected_values:
+    BMW_ATF_TEMP: 0
   response: 618F10562DA120079
+- expected_values:
+    BMW_ATF_TEMP: 0
+  response: 618F10562DA12007A
+- expected_values:
+    BMW_ATF_TEMP: 0
+  response: 618F10562DA12007B
 - expected_values:
     BMW_ATF_TEMP: 0
   response: 618F10562DA12007C

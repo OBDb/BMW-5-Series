@@ -1,17 +1,13 @@
 command_id: 6F1.60D.22D240|e=0D,fc=1
 test_cases:
 - expected_values:
+    BMW_VSS_INSTR: 5
+  response: |-
+    22D240
+    60DF10562D2400005
+- expected_values:
     BMW_VSS_INSTR: 0
   response: 60DF10562D2400000
 - expected_values:
-    BMW_VSS_INSTR: 8
-  response: 60DF10562D2400008
-- expected_values:
-    BMW_VSS_INSTR: 31
-  response: 60DF10562D240001F
-- expected_values:
-    BMW_VSS_INSTR: 47
-  response: 60DF10562D240002F
-- expected_values:
-    BMW_VSS_INSTR: 53
-  response: 60DF10562D2400035
+    BMW_VSS_INSTR: 157
+  response: 60DF10562D240009D

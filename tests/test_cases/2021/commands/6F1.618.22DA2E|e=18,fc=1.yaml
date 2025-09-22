@@ -25,3 +25,6 @@ test_cases:
 - expected_values:
     BMW_GEAR: 6
   response: 618F10562DA2E0603
+- expected_values:
+    BMW_GEAR: 7
+  response: 618F10562DA2E0703

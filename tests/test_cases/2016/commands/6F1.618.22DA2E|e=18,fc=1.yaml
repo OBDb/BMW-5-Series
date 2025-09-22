@@ -36,3 +36,10 @@ test_cases:
     BMW_GEAR: 0
     BMW_GEAR_SHIFT: PARK
   response: 618F10562DA2E000A
+- expected_values:
+    BMW_GEAR: 0
+    BMW_GEAR_SHIFT: PARK
+  response: |-
+    618F1100762DA2A0000
+    618F1210000FFFFFFFF
+    618F10562DA2E0006
