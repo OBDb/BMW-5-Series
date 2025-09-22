@@ -1,17 +1,16 @@
 command_id: 6F1.660.22D107|e=60,fc=1
 test_cases:
 - expected_values:
+    BMW_VSS: 13.7
+  response: |-
+    22D107
+    660F10562D1070089
+- expected_values:
     BMW_VSS: 0
   response: 660F10562D1070000
 - expected_values:
-    BMW_VSS: 32.3
-  response: 660F10562D1070143
+    BMW_VSS: 127.9
+  response: 660F10562D10704FF
 - expected_values:
-    BMW_VSS: 40.3
-  response: 660F10562D1070193
-- expected_values:
-    BMW_VSS: 46.8
-  response: 660F10562D10701D4
-- expected_values:
-    BMW_VSS: 48.9
-  response: 660F10562D10701E9
+    BMW_VSS: 159.1
+  response: 660F10562D1070637

@@ -4,23 +4,11 @@ test_cases:
     BMW_EOP: 3
   response: 612F10562586F03EF
 - expected_values:
-    BMW_EOP: 17
-  response: 612F10562586F119B
+    BMW_EOP: 12
+  response: 612F10562586F0CFF
 - expected_values:
-    BMW_EOP: 17
-  response: 612F10562586F11E9
+    BMW_EOP: 16
+  response: 612F10562586F1000
 - expected_values:
-    BMW_EOP: 17
-  response: 612F10562586F11EB
-- expected_values:
-    BMW_EOP: 17
-  response: 612F10562586F11F1
-- expected_values:
-    BMW_EOP: 18
-  response: 612F10562586F120C
-- expected_values:
-    BMW_EOP: 18
-  response: 612F10562586F120E
-- expected_values:
-    BMW_EOP: 18
-  response: 612F10562586F1212
+    BMW_EOP: 20
+  response: 612F10562586F143F
