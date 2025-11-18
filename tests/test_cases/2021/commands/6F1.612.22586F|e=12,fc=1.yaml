@@ -10,5 +10,5 @@ test_cases:
     BMW_EOP: 16
   response: 612F10562586F1000
 - expected_values:
-    BMW_EOP: 24
-  response: 612F10562586F1864
+    BMW_EOP: 36
+  response: 612F10562586F2450
