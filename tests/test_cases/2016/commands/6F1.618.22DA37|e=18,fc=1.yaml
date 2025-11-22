@@ -14,7 +14,7 @@ test_cases:
     BMW_TIME_S: 6
   response: |-
     618F1100F62DA370006
-    618F1213E940004F728
+    618F1213E980004F82F
     618F12200000341FFFF
 - expected_values:
     BMW_TIME_D: 0
@@ -22,8 +22,16 @@ test_cases:
     BMW_TIME_S: 6
   response: |-
     618F1100F62DA370006
-    618F1213E980004F82F
-    618F12200000341FFFF
+    618F1213EB0000508A9
+    618F12200000342FFFF
+- expected_values:
+    BMW_TIME_D: 0
+    BMW_TIME_M: 62
+    BMW_TIME_S: 6
+  response: |-
+    618F1100F62DA370006
+    618F1213EC400050A30
+    618F12200000342FFFF
 - expected_values:
     BMW_TIME_D: 0
     BMW_TIME_M: 142
@@ -31,14 +39,6 @@ test_cases:
   response: |-
     618F1100F62DA3700D4
     618F1218E3300013DE8
-    618F12200000C64FFFF
-- expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 142
-    BMW_TIME_S: 212
-  response: |-
-    618F1100F62DA3700D4
-    618F1218E4000013DE8
     618F12200000C64FFFF
 - expected_values:
     BMW_TIME_D: 0
@@ -55,14 +55,6 @@ test_cases:
   response: |-
     618F1100F62DA3700D4
     618F1219FFE00013DE8
-    618F12200000C64FFFF
-- expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 183
-    BMW_TIME_S: 212
-  response: |-
-    618F1100F62DA3700D4
-    618F121B7DE00013E30
     618F12200000C64FFFF
 - expected_values:
     BMW_TIME_D: 0
