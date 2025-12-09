@@ -4,5 +4,5 @@ test_cases:
     BMW_VSS_INSTR: 0
   response: 60DF10562D2400000
 - expected_values:
-    BMW_VSS_INSTR: 103
-  response: 60DF10562D2400067
+    BMW_VSS_INSTR: 178
+  response: 60DF10562D24000B2
