@@ -19,7 +19,7 @@ generations:
 
   - name: "Fourth Generation (E39)"
     start_year: 1995
-    end_year: 2003
+    end_year: 2004
     description: "Widely regarded as one of the finest 5 Series generations, the E39 balanced dynamic excellence with luxury and technology. It featured a sophisticated chassis with aluminum components, a range of refined straight-six and V8 engines, and elegant, timeless styling. The E39 M5 with its 400 HP V8 is particularly celebrated. This generation represented peak mechanical refinement before the introduction of more complex electronic systems."
 
   - name: "Fifth Generation (E60/E61)"
@@ -34,8 +34,13 @@ generations:
 
   - name: "Seventh Generation (G30/G31)"
     start_year: 2017
-    end_year: 2023
+    end_year: 2019
     description: "The G30 5 Series refined the formula with evolutionary styling, reduced weight through increased use of aluminum and high-strength steel, and advanced technology including semi-autonomous driving capabilities. Available as a sedan (G30) and wagon (G31), it offered a range of efficient turbocharged engines, plug-in hybrid options, and the M5 with up to 625 HP and all-wheel drive. This generation successfully balanced luxury, technology, and driving dynamics."
+
+  - name: "Seventh Generation (G30/G31 Facelift)"
+    start_year: 2020
+    end_year: 2023
+    description: "The 2020 facelift of the G30 generation maintained the same mechanical platform and engines while introducing visual and interior updates. The facelift refreshed the exterior styling, updated infotainment systems, and refined interior design elements, continuing the G30's legacy of balancing luxury, technology, and driving dynamics through the end of the generation in 2023."
 
   - name: "Eighth Generation (G60)"
     start_year: 2023
