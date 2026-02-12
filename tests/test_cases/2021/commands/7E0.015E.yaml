@@ -2,4 +2,15 @@ command_id: 7E0.015E
 test_cases:
 - expected_values:
     FUEL_RATE: 0
+  response: |-
+    7E803410D0E
+    7E803410D0E
+    7E804415E0000
+- expected_values:
+    FUEL_RATE: 0
+  response: |-
+    7E803410D2E
+    7E804415E0000
+- expected_values:
+    FUEL_RATE: 0
   response: 7E804415E0000
