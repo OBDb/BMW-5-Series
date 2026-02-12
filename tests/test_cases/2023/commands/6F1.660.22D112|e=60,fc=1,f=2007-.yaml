@@ -1,0 +1,14 @@
+command_id: 6F1.660.22D112|e=60,fc=1,f=2007-
+test_cases:
+- expected_values:
+    5SERIES_AAT: -8.5
+  response: 660F10562D1123F40
+- expected_values:
+    5SERIES_AAT: -1
+  response: 660F10562D1124E59
+- expected_values:
+    5SERIES_AAT: 35
+  response: 660F10562D1129698
+- expected_values:
+    5SERIES_AAT: 35
+  response: 660F10562D112969E

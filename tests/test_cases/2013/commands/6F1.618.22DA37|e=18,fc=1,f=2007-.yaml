@@ -1,0 +1,18 @@
+command_id: 6F1.618.22DA37|e=18,fc=1,f=2007-
+test_cases:
+- expected_values:
+    5SERIES_TIME_D: 0
+    5SERIES_TIME_M: 228
+    5SERIES_TIME_S: 3
+  response: |-
+    618F1100F62DA370003
+    618F121E45900000B80
+    618F12200009CA6FFFF
+- expected_values:
+    5SERIES_TIME_D: 0
+    5SERIES_TIME_M: 8
+    5SERIES_TIME_S: 173
+  response: |-
+    618F1100F62DA3700AD
+    618F12108E100015F89
+    618F122000105F7FFFF
