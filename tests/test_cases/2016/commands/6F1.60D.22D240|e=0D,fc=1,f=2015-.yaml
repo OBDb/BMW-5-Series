@@ -1,0 +1,29 @@
+command_id: 6F1.60D.22D240|e=0D,fc=1,f=2015-
+test_cases:
+- expected_values:
+    5SERIES_VSS_INSTR: 0
+  response: 60DF10562D2400000
+- expected_values:
+    5SERIES_VSS_INSTR: 3
+  response: 60DF10562D2400003
+- expected_values:
+    5SERIES_VSS_INSTR: 17
+  response: 60DF10562D2400011
+- expected_values:
+    5SERIES_VSS_INSTR: 23
+  response: 60DF10562D2400017
+- expected_values:
+    5SERIES_VSS_INSTR: 26
+  response: 60DF10562D240001A
+- expected_values:
+    5SERIES_VSS_INSTR: 42
+  response: 60DF10562D240002A
+- expected_values:
+    5SERIES_VSS_INSTR: 47
+  response: 60DF10562D240002F
+- expected_values:
+    5SERIES_VSS_INSTR: 60
+  response: 60DF10562D240003C
+- expected_values:
+    5SERIES_VSS_INSTR: 79
+  response: 60DF10562D240004F
