@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "cmd": {"22": "D240"}, "freq": 0.25, "filter": { "from": 2015 }, "dbgfilter": { "to": 2014, "from": 2024 },
+{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "cmd": {"22": "D240"}, "freq": 0.25, "filter": { "from": 2015 }, "dbgfilter": { "from": 2024 },
   "signals": [
     {"id": "5SERIES_VSS_INSTR", "path": "Movement", "fmt": { "len": 16, "max": 1000, "unit": "kilometersPerHour" }, "name": "Vehicle speed, instrument cluster", "suggestedMetric": "speed", "description": "Instrument cluster vehicle speed."}
   ]},
@@ -65,7 +65,7 @@
     {"id": "5SERIES_TIME_S", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in S"},
     {"id": "5SERIES_TIME_M", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in M"}
   ]},
-{ "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "cmd": {"22": "DB32"}, "freq": 0.25, "filter": { "from": 2017 }, "dbgfilter": { "to": 2016, "years": [2021], "from": 2023 },
+{ "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "cmd": {"22": "DB32"}, "freq": 0.25, "filter": { "from": 2017 }, "dbgfilter": { "years": [2021], "from": 2023 },
   "signals": [
     {"id": "5SERIES_AXLE_FRONT_ACTUAL_TORQUE",   "path": "Tires", "fmt": {           "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, actual torque"},
     {"id": "5SERIES_AXLE_FRONT_SETPOINT_TORQUE", "path": "Tires", "fmt": {"bix": 32, "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, setpoint torque"}
@@ -77,7 +77,7 @@
     {"id": "5SERIES_RL_SPD", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "5SERIES_RR_SPD", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "6F1", "rax": "656", "eax": "56", "fcm1": true, "cmd": {"22": "DCDD"}, "freq": 5, "filter": { "from": 2016 }, "dbgfilter": { "to": 2015, "from": 2024 },
+{ "hdr": "6F1", "rax": "656", "eax": "56", "fcm1": true, "cmd": {"22": "DCDD"}, "freq": 5, "filter": { "from": 2016 }, "dbgfilter": { "from": 2024 },
   "signals": [
     {"id": "5SERIES_DOOR_DRIVER",         "path": "Doors",   "fmt": {           "len": 8, "max": 255, "unit": "scalar" }, "name": "Driver door open"},
     {"id": "5SERIES_DOOR_PASSENGER",      "path": "Doors",   "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Passenger door open"},
