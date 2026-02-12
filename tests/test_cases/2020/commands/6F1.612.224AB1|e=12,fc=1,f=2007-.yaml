@@ -1,0 +1,16 @@
+command_id: 6F1.612.224AB1|e=12,fc=1,f=2007-
+test_cases:
+- expected_values:
+    5SERIES_VSS2: 63.89
+  response: |-
+    224AB11
+    612F105624AB118F5
+- expected_values:
+    5SERIES_VSS2: 0
+  response: 612F105624AB10000
+- expected_values:
+    5SERIES_VSS2: 5.11
+  response: 612F105624AB101FF
+- expected_values:
+    5SERIES_VSS2: 144.06
+  response: 612F105624AB13846
