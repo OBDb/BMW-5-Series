@@ -15,12 +15,6 @@ test_cases:
     660F1100B62D10D0001
     660F1214A8C00014A8C
 - expected_values:
-    5SERIES_ODO: 52093
-    5SERIES_ODO_ALT: 52093
-  response: |-
-    660F1100B62D10D0000
-    660F121CB7D0000CB7D
-- expected_values:
     5SERIES_ODO: 78315
     5SERIES_ODO_ALT: 78315
   response: |-

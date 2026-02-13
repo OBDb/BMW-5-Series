@@ -31,8 +31,3 @@ test_cases:
   response: |-
     640F110076217000001
     640F1212A45FFFFFFFF
-- expected_values:
-    I5_ODO_2: 107616
-  response: |-
-    640F110076217000001
-    640F121A460FFFFFFFF

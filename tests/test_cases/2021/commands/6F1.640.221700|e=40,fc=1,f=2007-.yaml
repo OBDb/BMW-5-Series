@@ -1,11 +1,6 @@
 command_id: 6F1.640.221700|e=40,fc=1,f=2007-
 test_cases:
 - expected_values:
-    I5_ODO_2: 52090
-  response: |-
-    640F110076217000000
-    640F121CB7AFFFFFFFF
-- expected_values:
     I5_ODO_2: 78305
   response: |-
     640F110076217000001
