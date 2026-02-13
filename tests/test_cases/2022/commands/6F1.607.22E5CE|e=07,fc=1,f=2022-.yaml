@@ -1,0 +1,57 @@
+command_id: 6F1.607.22E5CE|e=07,fc=1,f=2022-
+test_cases:
+- expected_values:
+    I5_HVBAT_SOC_V2: 31.55
+  response: |-
+    607F1100962E5CE0C53
+    607F1210C3B0C73
+- expected_values:
+    I5_HVBAT_SOC_V2: 33.28
+  response: |-
+    607F1100962E5CE0D00
+    607F1210CE80D20
+- expected_values:
+    I5_HVBAT_SOC_V2: 37.1
+  response: |-
+    607F1100962E5CE0E7E
+    607F1210E600E9D
+- expected_values:
+    I5_HVBAT_SOC_V2: 39.07
+  response: |-
+    607F1100962E5CE0F43
+    607F1210F270F5F
+- expected_values:
+    I5_HVBAT_SOC_V2: 40.58
+  response: |-
+    607F1100962E5CE0FDA
+    607F1210FBF0FF4
+- expected_values:
+    I5_HVBAT_SOC_V2: 40.69
+  response: |-
+    607F1100962E5CE0FE5
+    607F1210FCB1000
+- expected_values:
+    I5_HVBAT_SOC_V2: 56.31
+  response: |-
+    607F1100962E5CE15FF
+    607F12115DE1618
+- expected_values:
+    I5_HVBAT_SOC_V2: 82
+  response: |-
+    607F1100962E5CE2008
+    607F1211FF22020
+- expected_values:
+    I5_HVBAT_SOC_V2: 82.15
+  response: |-
+    607F1100962E5CE2017
+    607F1212002202F
+- expected_values:
+    I5_HVBAT_SOC_V2: 82.64
+  response: |-
+    607F1100962E5CE2048
+    607F12120312060
+- expected_values:
+    I5_HVBAT_SOC_V2: 82.78
+  response: |-
+    607F1100962E5CE2056
+    607F121203F206E
