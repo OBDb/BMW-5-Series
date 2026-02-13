@@ -7,18 +7,18 @@
   "signals": [
     {"id": "I5_HVBAT_C", "path": "Battery", "fmt": { "len": 32, "max": 10000, "min": -10000, "div": 100, "sign": true, "unit": "amps" }, "name": "HV battery current"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDBC"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "years": [2017, 2018, 2019, 2020], "from": 2024 },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDBC"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "years": [2017, 2018, 2019, 2020, 2022], "from": 2024 },
   "signals": [
     {"id": "I5_HVBAT_SOC",     "path": "Battery", "fmt": {           "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge",      "suggestedMetric": "stateOfCharge"},
     {"id": "I5_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge, max"},
     {"id": "I5_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge, min"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDC0"}, "freq": 30, "filter": { "from": 2016 }, "dbgfilter": { "years": [2017, 2018, 2019, 2020], "from": 2024 },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDC0"}, "freq": 30, "filter": { "from": 2016 }, "dbgfilter": { "years": [2017, 2018, 2019, 2020, 2022], "from": 2024 },
   "signals": [
     {"id": "I5_HVBAT_CT_MIN", "path": "Battery", "fmt": {           "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature, min"},
     {"id": "I5_HVBAT_CT_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature, max"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DF71"}, "freq": 86400, "filter": { "years": [1996, 1997, 1999, 2000, 2001, 2002, 2007, 2008, 2009, 2010, 2011, 2016, 2021, 2023, 2024], "from": 2026 }, "dbgfilter": { "years": [2017, 2018, 2019, 2020, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DF71"}, "freq": 86400, "filter": { "years": [1996, 1997, 1999, 2000, 2001, 2002, 2007, 2008, 2009, 2010, 2011, 2016, 2021, 2023, 2024], "from": 2026 }, "dbgfilter": { "from": 2024 },
   "signals": [
     {"id": "I5_HVBAT_C_CNT",     "path": "Battery", "fmt": {           "len": 16, "max": 65535, "unit": "scalar" }, "name": "Number of cells"},
     {"id": "I5_HVBAT_C_CNT_MOD", "path": "Battery", "fmt": {"bix": 16, "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Number of cells per module"},
@@ -47,11 +47,11 @@
     {"id": "I5_HVBAT_C_OCV_AVG",        "path": "Battery", "fmt": {"bix": 272, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell OCV, average"},
     {"id": "I5_HVBAT_IMPEDANCE_ALPHA",  "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "scalar"      }, "name": "Aging factor"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "E5C7"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "from": 2023 },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "E5C7"}, "freq": 1, "filter": { "from": 2022 },
   "signals": [
     {"id": "I5_HVBAT_SOH_V2", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "E5CE"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "from": 2023 },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "E5CE"}, "freq": 1, "filter": { "from": 2022 },
   "signals": [
     {"id": "I5_HVBAT_SOC_V2", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
   ]},
@@ -104,7 +104,7 @@
     {"id": "5SERIES_TQ_CNVRT_RPM",    "path": "Transmission", "fmt": {           "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Torque converter speed"},
     {"id": "5SERIES_TRANS_SHAFT_RPM", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Transmission output shaft speed"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "years": [2024], "from": 2026 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "from": 2024 },
   "signals": [
     {"id": "5SERIES_GEAR_SHIFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
           "0": { "description": "Park",    "value": "PARK" },
@@ -135,7 +135,7 @@
     {"id": "I5_VGT_CAL_ANGLE",   "path": "Engine", "fmt": {            "len": 16, "max": 1000,    "mul": 156.25, "div": 10000, "unit": "degrees"    }, "name": "Variable geometry turbocharger calibration angle"},
     {"id": "I5_OIL_CHANGE_DIST", "path": "Fluids", "fmt": {"bix": 304, "len": 32, "max": 1000000,                              "unit": "kilometers" }, "name": "Distance since last oil change"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE4"}, "freq": 0.25, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "years": [2024], "from": 2026 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE4"}, "freq": 0.25, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "from": 2024 },
   "signals": [
     {"id": "5SERIES_FL_SPD", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "5SERIES_FR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
