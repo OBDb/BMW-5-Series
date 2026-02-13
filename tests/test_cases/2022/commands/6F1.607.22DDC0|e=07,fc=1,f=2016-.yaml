@@ -1,0 +1,62 @@
+command_id: 6F1.607.22DDC0|e=07,fc=1,f=2016-
+test_cases:
+- expected_values:
+    I5_HVBAT_CT_MAX: 5.14
+    I5_HVBAT_CT_MIN: 4.45
+  response: |-
+    607F1100A62DDC001BD
+    607F121020201E801
+- expected_values:
+    I5_HVBAT_CT_MAX: 5.1
+    I5_HVBAT_CT_MIN: 4.47
+  response: |-
+    607F1100A62DDC001BF
+    607F12101FE01E701
+- expected_values:
+    I5_HVBAT_CT_MAX: 5.12
+    I5_HVBAT_CT_MIN: 4.5
+  response: |-
+    607F1100A62DDC001C2
+    607F121020001E901
+- expected_values:
+    I5_HVBAT_CT_MAX: 6.88
+    I5_HVBAT_CT_MIN: 6.47
+  response: |-
+    607F1100A62DDC00287
+    607F12102B0029F01
+- expected_values:
+    I5_HVBAT_CT_MAX: 7.19
+    I5_HVBAT_CT_MIN: 6.76
+  response: |-
+    607F1100A62DDC002A4
+    607F12102CF02BD01
+- expected_values:
+    I5_HVBAT_CT_MAX: 7.2
+    I5_HVBAT_CT_MIN: 6.78
+  response: |-
+    607F1100A62DDC002A6
+    607F12102D002C001
+- expected_values:
+    I5_HVBAT_CT_MAX: 10.83
+    I5_HVBAT_CT_MIN: 10.23
+  response: |-
+    607F1100A62DDC003FF
+    607F121043B041901
+- expected_values:
+    I5_HVBAT_CT_MAX: 13.46
+    I5_HVBAT_CT_MIN: 12.8
+  response: |-
+    607F1100A62DDC00500
+    607F1210542051F01
+- expected_values:
+    I5_HVBAT_CT_MAX: 14.9
+    I5_HVBAT_CT_MIN: 13.6
+  response: |-
+    607F1100A62DDC00550
+    607F12105D2057F01
+- expected_values:
+    I5_HVBAT_CT_MAX: 14.82
+    I5_HVBAT_CT_MIN: 14.04
+  response: |-
+    607F1100A62DDC0057C
+    607F12105CA05A001

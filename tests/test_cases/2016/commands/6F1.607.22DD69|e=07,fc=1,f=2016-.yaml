@@ -1,0 +1,7 @@
+command_id: 6F1.607.22DD69|e=07,fc=1,f=2016-
+test_cases:
+- expected_values:
+    I5_HVBAT_C: -9.77
+  response: |-
+    607F1100762DD69FFFF
+    607F121FC2FFFFFFFFF
