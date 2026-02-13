@@ -1,0 +1,51 @@
+command_id: 6F1.607.22DDBC|e=07,fc=1,f=2016-
+test_cases:
+- expected_values:
+    I5_HVBAT_SOC: 22.4
+    I5_HVBAT_SOC_MAX: 76
+    I5_HVBAT_SOC_MIN: 18.5
+  response: |-
+    607F1100962DDBC00E0
+    607F12102F800B9FFFF
+- expected_values:
+    I5_HVBAT_SOC: 22.5
+    I5_HVBAT_SOC_MAX: 76
+    I5_HVBAT_SOC_MIN: 18.5
+  response: |-
+    607F1100962DDBC00E1
+    607F12102F800B9FFFF
+- expected_values:
+    I5_HVBAT_SOC: 22.6
+    I5_HVBAT_SOC_MAX: 76
+    I5_HVBAT_SOC_MIN: 18.5
+  response: |-
+    607F1100962DDBC00E2
+    607F12102F800B9FFFF
+- expected_values:
+    I5_HVBAT_SOC: 22.8
+    I5_HVBAT_SOC_MAX: 76
+    I5_HVBAT_SOC_MIN: 18.5
+  response: |-
+    607F1100962DDBC00E4
+    607F12102F800B9FFFF
+- expected_values:
+    I5_HVBAT_SOC: 23.2
+    I5_HVBAT_SOC_MAX: 76
+    I5_HVBAT_SOC_MIN: 18.5
+  response: |-
+    607F1100962DDBC00E8
+    607F12102F800B9FFFF
+- expected_values:
+    I5_HVBAT_SOC: 23.5
+    I5_HVBAT_SOC_MAX: 76
+    I5_HVBAT_SOC_MIN: 18.5
+  response: |-
+    607F1100962DDBC00EB
+    607F12102F800B9FFFF
+- expected_values:
+    I5_HVBAT_SOC: 23.9
+    I5_HVBAT_SOC_MAX: 76
+    I5_HVBAT_SOC_MIN: 18.5
+  response: |-
+    607F1100962DDBC00EF
+    607F12102F800B9FFFF

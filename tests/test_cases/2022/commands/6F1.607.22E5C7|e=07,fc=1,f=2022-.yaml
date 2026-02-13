@@ -1,0 +1,37 @@
+command_id: 6F1.607.22E5C7|e=07,fc=1,f=2022-
+test_cases:
+- expected_values:
+    I5_HVBAT_SOH_V2: 100
+  response: |-
+    607F1100762E5C718ED
+    607F1212D68
+- expected_values:
+    I5_HVBAT_SOH_V2: 100
+  response: |-
+    607F1100762E5C719D9
+    607F1212D6F
+- expected_values:
+    I5_HVBAT_SOH_V2: 100
+  response: |-
+    607F1100762E5C71E25
+    607F1212DB0
+- expected_values:
+    I5_HVBAT_SOH_V2: 100
+  response: |-
+    607F1100762E5C72100
+    607F1212DFD
+- expected_values:
+    I5_HVBAT_SOH_V2: 100
+  response: |-
+    607F1100762E5C721FF
+    607F1212DFD
+- expected_values:
+    I5_HVBAT_SOH_V2: 68
+  response: |-
+    607F1100762E5C727A8
+    607F1212E44
+- expected_values:
+    I5_HVBAT_SOH_V2: 68
+  response: |-
+    607F1100762E5C72812
+    607F1212E44
