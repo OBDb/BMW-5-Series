@@ -125,7 +125,7 @@
     {"id": "5SERIES_TIME_S", "path": "Trips", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in sport"},
     {"id": "5SERIES_TIME_M", "path": "Trips", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in manual"}
   ]},
-{ "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "cmd": {"22": "DB32"}, "freq": 0.25, "filter": { "from": 2017 }, "dbgfilter": { "years": [2021], "from": 2023 },
+{ "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "cmd": {"22": "DB32"}, "freq": 0.25, "filter": { "from": 2017 }, "dbgfilter": { "years": [2021], "from": 2024 },
   "signals": [
     {"id": "5SERIES_AXLE_FRONT_ACTUAL_TORQUE",   "path": "Tires", "fmt": {           "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, actual torque"},
     {"id": "5SERIES_AXLE_FRONT_SETPOINT_TORQUE", "path": "Tires", "fmt": {"bix": 32, "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, setpoint torque"}
