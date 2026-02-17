@@ -100,6 +100,7 @@ supported_commands_by_ecu:
   - 019D:FUEL_RATE_ALT,VFUEL_RATE
   - 019E:EXH_RATE
   - 01A6:ODO
+  - 01AA:V_SET
   - 7E0.0104:LOAD_PCT
   - 7E0.0105:ECT
   - 7E0.010D:VSS
