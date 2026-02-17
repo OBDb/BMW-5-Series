@@ -21,6 +21,14 @@ test_cases:
     7E804410C0000
     7E803410D00
 - expected_values:
+    LOAD_PCT: 24.31373
+  response: |-
+    7E80341043E
+    7E803410D1A
+    7E804410C2286
+    7E803410D1A
+    7E804411009E5
+- expected_values:
     LOAD_PCT: 0
   response: |-
     7E803410D12
