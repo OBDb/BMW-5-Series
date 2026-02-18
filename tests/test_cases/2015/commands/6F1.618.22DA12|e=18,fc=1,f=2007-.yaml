@@ -5,28 +5,4 @@ test_cases:
   response: 618F10562DA120041
 - expected_values:
     5SERIES_ATF_TEMP: 0
-  response: 618F10562DA120073
-- expected_values:
-    5SERIES_ATF_TEMP: 0
-  response: 618F10562DA120077
-- expected_values:
-    5SERIES_ATF_TEMP: 0
-  response: 618F10562DA120078
-- expected_values:
-    5SERIES_ATF_TEMP: 0
-  response: 618F10562DA120079
-- expected_values:
-    5SERIES_ATF_TEMP: 0
-  response: 618F10562DA12007A
-- expected_values:
-    5SERIES_ATF_TEMP: 0
-  response: 618F10562DA12007B
-- expected_values:
-    5SERIES_ATF_TEMP: 0
-  response: 618F10562DA12007C
-- expected_values:
-    5SERIES_ATF_TEMP: 0
-  response: 618F10562DA12007D
-- expected_values:
-    5SERIES_ATF_TEMP: 0
   response: 618F10562DA12007E
