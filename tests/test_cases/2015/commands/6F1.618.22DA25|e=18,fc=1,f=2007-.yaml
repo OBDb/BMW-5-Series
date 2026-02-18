@@ -4,5 +4,5 @@ test_cases:
     5SERIES_EOT: 15
   response: 618F10562DA25003F
 - expected_values:
-    5SERIES_EOT: 94
-  response: 618F10562DA25008E
+    5SERIES_EOT: 98
+  response: 618F10562DA250092
