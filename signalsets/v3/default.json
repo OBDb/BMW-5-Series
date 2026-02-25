@@ -67,15 +67,15 @@
   "signals": [
     {"id": "5SERIES_EOP", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil pressure"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA12"}, "freq": 30, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "years": [2020, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA12"}, "freq": 30, "filter": { "from": 2007 }, "dbgfilter": { "to": 2010, "years": [2020, 2022], "from": 2024 },
   "signals": [
     {"id": "5SERIES_ATF_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Automatic transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA1F"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "from": 2024 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA1F"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2010, "from": 2024 },
   "signals": [
     {"id": "5SERIES_KICKDOWN", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 100, "unit": "scalar" }, "name": "Kickdown"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA22"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "from": 2024 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA22"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2010, "from": 2024 },
   "signals": [
     {"id": "5SERIES_TQ_CNVRT_LOCKUP", "path": "Transmission", "name": "Torque converter lockup", "fmt": {"bix": 8, "len": 8, "map": {
           "0": { "description": "Open",               "value": "OPEN" },
@@ -87,24 +87,24 @@
         }}
     }
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA23"}, "freq": 15, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "from": 2024 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA23"}, "freq": 15, "filter": { "from": 2007 }, "dbgfilter": { "to": 2010, "from": 2024 },
   "signals": [
     {"id": "5SERIES_ODO_LOWRES", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "mul": 8, "unit": "kilometers" }, "name": "Odometer, low resolution", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA25"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "from": 2024 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA25"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2010, "from": 2024 },
   "signals": [
     {"id": "5SERIES_EOT", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "add": -48, "sign": true, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA28"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "from": 2024 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA28"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2010, "from": 2024 },
   "signals": [
     {"id": "I5_BRAKE_SWITCH", "path": "Control", "fmt": {"bix": 8, "len": 8, "max": 1, "unit": "scalar" }, "name": "Brake switch"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2A"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "from": 2024 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2A"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2010, "from": 2024 },
   "signals": [
     {"id": "5SERIES_TQ_CNVRT_RPM",    "path": "Transmission", "fmt": {           "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Torque converter speed"},
     {"id": "5SERIES_TRANS_SHAFT_RPM", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Transmission output shaft speed"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "from": 2024 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2010, "from": 2024 },
   "signals": [
     {"id": "5SERIES_GEAR_SHIFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
           "0": { "description": "Park",    "value": "PARK" },
@@ -119,7 +119,7 @@
         }}
     }
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA37"}, "freq": 30, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "years": [2020, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA37"}, "freq": 30, "filter": { "from": 2007 }, "dbgfilter": { "to": 2010, "years": [2020, 2022], "from": 2024 },
   "signals": [
     {"id": "5SERIES_TIME_D", "path": "Trips", "fmt": {           "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in drive"},
     {"id": "5SERIES_TIME_S", "path": "Trips", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in sport"},
@@ -135,7 +135,7 @@
     {"id": "I5_VGT_CAL_ANGLE",   "path": "Engine", "fmt": {            "len": 16, "max": 1000,    "mul": 156.25, "div": 10000, "unit": "degrees"    }, "name": "Variable geometry turbocharger calibration angle"},
     {"id": "I5_OIL_CHANGE_DIST", "path": "Fluids", "fmt": {"bix": 304, "len": 32, "max": 1000000,                              "unit": "kilometers" }, "name": "Distance since last oil change"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE4"}, "freq": 0.25, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "from": 2024 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE4"}, "freq": 0.25, "filter": { "from": 2007 }, "dbgfilter": { "to": 2010, "from": 2024 },
   "signals": [
     {"id": "5SERIES_FL_SPD", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "5SERIES_FR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
@@ -157,11 +157,11 @@
     {"id": "5SERIES_REAR_WINDOW",         "path": "Windows", "fmt": {"bix": 48, "len": 8, "max": 255, "unit": "scalar" }, "name": "Rear window open"},
     {"id": "5SERIES_CENTRAL_LOCK",        "path": "Doors",   "fmt": {"bix": 56, "len": 8, "max": 255, "unit": "scalar" }, "name": "Locked",                   "description": "Overall lock state of the vehicle"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D107"}, "freq": 0.25, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "from": 2024 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D107"}, "freq": 0.25, "filter": { "from": 2007 }, "dbgfilter": { "to": 2010, "from": 2024 },
   "signals": [
     {"id": "5SERIES_VSS", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Speedometer vehicle speed."}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D10D"}, "freq": 5, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "from": 2024 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D10D"}, "freq": 5, "filter": { "from": 2007 }, "dbgfilter": { "to": 2010, "from": 2024 },
   "signals": [
     {"id": "5SERIES_ODO",     "path": "Trips", "fmt": {           "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer",              "suggestedMetric": "odometer"},
     {"id": "5SERIES_ODO_ALT", "path": "Trips", "fmt": {"bix": 32, "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, alternative", "suggestedMetric": "odometer"}
@@ -175,11 +175,11 @@
     {"id": "I5_RANGE_E_USE", "path": "Trips", "fmt": {"bix": 64, "len": 16, "max": 65.535, "div": 1000, "nullmin": 0, "nullmax": 65,   "unit": "kilowattHours" }, "name": "Electric consumption / 100km"},
     {"id": "I5_AUX_PWR",     "path": "Trips", "fmt": {"bix": 80, "len": 16, "max": 655.35, "div": 100,                "nullmax": 655,  "unit": "kilowatts"     }, "name": "Auxiliary power consumption"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D112"}, "freq": 5, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "from": 2024 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D112"}, "freq": 5, "filter": { "from": 2007 }, "dbgfilter": { "to": 2010, "from": 2024 },
   "signals": [
     {"id": "5SERIES_AAT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D031"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "years": [2014], "from": 2020 },
+{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D031"}, "freq": 1, "filter": { "from": 2007 }, "dbgfilter": { "to": 2010, "years": [2014], "from": 2020 },
   "signals": [
     {"id": "I5_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
   ]}
