@@ -60,6 +60,7 @@ jobs:
       - name: Comment test results on PR
         if: always() && github.event_name == 'pull_request'
         uses: thollander/actions-comment-pull-request@v2
+        continue-on-error: true
         with:
           message: ${{ env.TEST_RESULTS }}
           comment_tag: response-tests
