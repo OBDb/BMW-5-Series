@@ -13,6 +13,12 @@ test_cases:
     660F1100B62D10D0001
     660F121BC310001BC31
 - expected_values:
+    5SERIES_ODO: 134433
+    5SERIES_ODO_ALT: 134433
+  response: |-
+    660F1100B62D10D0002
+    660F1210D2100020D21
+- expected_values:
     5SERIES_ODO: 172016
     5SERIES_ODO_ALT: 172016
   response: |-
