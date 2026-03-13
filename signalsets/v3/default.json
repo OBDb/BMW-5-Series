@@ -1,19 +1,19 @@
 { "commands": [
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "6335"}, "freq": 3600, "filter": { "from": 2016 }, "dbgfilter": { "years": [2017, 2018, 2019, 2020, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "6335"}, "freq": 3600, "filter": { "from": 2016 }, "dbgfilter": { "years": [2017, 2018, 2019, 2020], "from": 2024 },
   "signals": [
     {"id": "5SERIES_HVBAT_SOH", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DD69"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "years": [2017, 2018, 2019, 2020, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DD69"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "years": [2017, 2018, 2019, 2020], "from": 2024 },
   "signals": [
     {"id": "5SERIES_HVBAT_C", "path": "Battery", "fmt": { "len": 32, "max": 10000, "min": -10000, "div": 100, "sign": true, "unit": "amps" }, "name": "HV battery current"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDBC"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "years": [2017, 2018, 2019, 2020, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDBC"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "years": [2017, 2018, 2019, 2020], "from": 2024 },
   "signals": [
     {"id": "5SERIES_HVBAT_SOC",     "path": "Battery", "fmt": {           "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge",      "suggestedMetric": "stateOfCharge"},
     {"id": "5SERIES_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge, max"},
     {"id": "5SERIES_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge, min"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDC0"}, "freq": 30, "filter": { "from": 2016 }, "dbgfilter": { "years": [2017, 2018, 2019, 2020, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDC0"}, "freq": 30, "filter": { "from": 2016 }, "dbgfilter": { "years": [2017, 2018, 2019, 2020], "from": 2024 },
   "signals": [
     {"id": "5SERIES_HVBAT_CT_MIN", "path": "Battery", "fmt": {           "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature, min"},
     {"id": "5SERIES_HVBAT_CT_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature, max"}
@@ -25,7 +25,7 @@
     {"id": "5SERIES_HVBAT_MOD_CNT",   "path": "Battery", "fmt": {"bix": 24, "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Number of modules"},
     {"id": "5SERIES_HVBAT_MOD_T_CNT", "path": "Battery", "fmt": {"bix": 32, "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Number of temperature sensors per module"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DFA0"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "years": [2017, 2018, 2019, 2020, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DFA0"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "years": [2017, 2018, 2019, 2020], "from": 2024 },
   "signals": [
     {"id": "5SERIES_HVBAT_C_CAP_MIN",        "path": "Battery", "fmt": {            "len": 16, "max": 655.35,                 "div": 100,                 "unit": "ampereHours" }, "name": "Cell capacity, min"},
     {"id": "5SERIES_HVBAT_C_CAP_MAX",        "path": "Battery", "fmt": {"bix": 16,  "len": 16, "max": 655.35,                 "div": 100,                 "unit": "ampereHours" }, "name": "Cell capacity, max"},
