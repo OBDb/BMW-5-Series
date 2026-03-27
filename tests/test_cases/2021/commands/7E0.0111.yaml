@@ -9,6 +9,13 @@ test_cases:
     7E80341113A
     7E804411F0D80
 - expected_values:
+    TP: 23.52941
+  response: |-
+    7E80341113C
+    7E803410D21
+    7E803410D21
+    7E803410400
+- expected_values:
     TP: 31.76471
   response: |-
     7E803411151
