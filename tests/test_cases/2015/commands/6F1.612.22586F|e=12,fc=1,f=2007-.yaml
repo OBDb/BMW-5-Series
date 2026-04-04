@@ -1,0 +1,8 @@
+command_id: 6F1.612.22586F|e=12,fc=1,f=2007-
+test_cases:
+- expected_values:
+    5SERIES_EOP: 3
+  response: 612F10562586F0394
+- expected_values:
+    5SERIES_EOP: 3
+  response: 612F10562586F0395

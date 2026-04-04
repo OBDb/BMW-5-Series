@@ -59,11 +59,11 @@
   "signals": [
     {"id": "5SERIES_VSS_INSTR", "path": "Movement", "fmt": { "len": 16, "max": 1000, "unit": "kilometersPerHour" }, "name": "Vehicle speed, instrument cluster", "suggestedMetric": "speed", "description": "Instrument cluster vehicle speed."}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4AB1"}, "freq": 0.25, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "years": [2013, 2015], "from": 2024 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4AB1"}, "freq": 0.25, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "years": [2013], "from": 2024 },
   "signals": [
     {"id": "5SERIES_VSS2", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "High resolution vehicle speed."}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "586F"}, "freq": 30, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2024 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "586F"}, "freq": 30, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "from": 2024 },
   "signals": [
     {"id": "5SERIES_EOP", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil pressure"}
   ]},
