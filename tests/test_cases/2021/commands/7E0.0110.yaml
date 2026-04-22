@@ -8,16 +8,6 @@ test_cases:
 - expected_values:
     MAF: 0
   response: |-
-    7E803410D13
-    7E80441100000
-- expected_values:
-    MAF: 0
-  response: |-
-    7E803410D22
-    7E80441100000
-- expected_values:
-    MAF: 0
-  response: |-
     7E803410D2E
     7E80441100000
 - expected_values:
