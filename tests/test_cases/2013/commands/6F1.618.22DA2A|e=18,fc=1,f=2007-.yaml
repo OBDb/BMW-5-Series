@@ -6,3 +6,9 @@ test_cases:
   response: |-
     618F1100762DA2A0000
     618F1210000FFFFFFFF
+- expected_values:
+    5SERIES_TQ_CNVRT_RPM: 865
+    5SERIES_TRANS_SHAFT_RPM: 0
+  response: |-
+    618F1100762DA2A0361
+    618F1210000FFFFFFFF

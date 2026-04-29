@@ -1,6 +1,9 @@
 command_id: 6F1.660.22D112|e=60,fc=1,f=2007-
 test_cases:
 - expected_values:
+    5SERIES_AAT: 13
+  response: 660F10562D1126A7C
+- expected_values:
     5SERIES_AAT: 14
   response: 660F10562D1126C73
 - expected_values:
