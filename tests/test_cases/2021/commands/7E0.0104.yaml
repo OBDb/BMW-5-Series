@@ -62,7 +62,7 @@ test_cases:
 - expected_values:
     LOAD_PCT: 0
   response: |-
-    7E803410D53
+    7E803411157
     7E803410400
 - expected_values:
     LOAD_PCT: 0
