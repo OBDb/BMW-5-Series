@@ -44,6 +44,14 @@ test_cases:
     TP: 33.33333
   response: |-
     7E803411155
+    7E803410400
+    7E803410D00
+    7E803410D00
+    7E803410B61
+- expected_values:
+    TP: 33.33333
+  response: |-
+    7E803411155
     7E803410D41
     7E804411F00A9
 - expected_values:
