@@ -18,3 +18,9 @@ test_cases:
   response: |-
     660F1100B62D10D0006
     660F121285900062859
+- expected_values:
+    5SERIES_ODO: 403547
+    5SERIES_ODO_ALT: 403547
+  response: |-
+    660F1100B62D10D0006
+    660F121285B0006285B
