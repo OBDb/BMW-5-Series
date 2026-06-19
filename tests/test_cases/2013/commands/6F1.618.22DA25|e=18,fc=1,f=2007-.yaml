@@ -1,6 +1,12 @@
 command_id: 6F1.618.22DA25|e=18,fc=1,f=2007-
 test_cases:
 - expected_values:
+    5SERIES_EOT: 48
+  response: 618F10562DA250060
+- expected_values:
+    5SERIES_EOT: 54
+  response: 618F10562DA250066
+- expected_values:
     5SERIES_EOT: 65
   response: 618F10562DA250071
 - expected_values:
