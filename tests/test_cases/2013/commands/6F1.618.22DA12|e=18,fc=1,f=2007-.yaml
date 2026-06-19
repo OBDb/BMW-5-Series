@@ -14,6 +14,9 @@ test_cases:
   response: 618F10562DA120057
 - expected_values:
     5SERIES_ATF_TEMP: 0
+  response: 618F10562DA120075
+- expected_values:
+    5SERIES_ATF_TEMP: 0
   response: 618F10562DA120076
 - expected_values:
     5SERIES_ATF_TEMP: 0
