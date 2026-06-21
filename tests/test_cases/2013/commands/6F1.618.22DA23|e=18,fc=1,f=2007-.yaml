@@ -25,3 +25,8 @@ test_cases:
   response: |-
     618F1100762DA230000
     618F121C512FFFFFFFF
+- expected_values:
+    5SERIES_ODO_LOWRES: 403752
+  response: |-
+    618F1100762DA230000
+    618F121C525FFFFFFFF

@@ -18,6 +18,14 @@ test_cases:
     618F12200001F2BFFFF
 - expected_values:
     5SERIES_TIME_D: 0
+    5SERIES_TIME_M: 168
+    5SERIES_TIME_S: 107
+  response: |-
+    618F1100F62DA37006B
+    618F121A89800008CEC
+    618F12200001F2BFFFF
+- expected_values:
+    5SERIES_TIME_D: 0
     5SERIES_TIME_M: 8
     5SERIES_TIME_S: 173
   response: |-
