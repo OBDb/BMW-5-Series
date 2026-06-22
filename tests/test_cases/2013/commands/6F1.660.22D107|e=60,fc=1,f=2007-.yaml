@@ -7,5 +7,5 @@ test_cases:
     5SERIES_VSS: 51
   response: 660F10562D10701FE
 - expected_values:
-    5SERIES_VSS: 102.5
-  response: 660F10562D1070401
+    5SERIES_VSS: 102.4
+  response: 660F10562D1070400
