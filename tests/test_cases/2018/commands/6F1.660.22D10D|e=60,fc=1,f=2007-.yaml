@@ -1,6 +1,12 @@
 command_id: 6F1.660.22D10D|e=60,fc=1,f=2007-
 test_cases:
 - expected_values:
+    5SERIES_ODO: 112595
+    5SERIES_ODO_ALT: 112595
+  response: |-
+    660F1100B62D10D0001
+    660F121B7D30001B7D3
+- expected_values:
     5SERIES_ODO: 151686
     5SERIES_ODO_ALT: 151686
   response: |-
