@@ -7,8 +7,8 @@ test_cases:
     5SERIES_AAT: 14
   response: 660F10562D1126C73
 - expected_values:
-    5SERIES_AAT: 29
-  response: 660F10562D1128A9C
+    5SERIES_AAT: 33
+  response: 660F10562D11292A5
 - expected_values:
-    5SERIES_AAT: 31.5
-  response: 660F10562D1128F8F
+    5SERIES_AAT: 35.5
+  response: 660F10562D1129797
