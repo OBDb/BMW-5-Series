@@ -61,9 +61,6 @@ test_cases:
     7E804411F0034
 - expected_values:
     TP: 34.11765
-  response: '7E803411157'
-- expected_values:
-    TP: 34.11765
   response: |-
     7E803411157
     7E803410D20
@@ -80,6 +77,9 @@ test_cases:
     7E803411158
     7E803410D00
     7E804411F00B8
+- expected_values:
+    TP: 57.64706
+  response: '7E803411193'
 - expected_values:
     TP: 34.11765
   response: |-
