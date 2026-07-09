@@ -1,0 +1,122 @@
+command_id: 7E0.0104
+test_cases:
+- expected_values:
+    LOAD_PCT: 0
+  response: '7E803410400'
+- expected_values:
+    LOAD_PCT: 0
+  response: |-
+    7E803410400
+    7E803410D00
+- expected_values:
+    LOAD_PCT: 0
+  response: |-
+    7E803410400
+    7E803410D00
+    7E804410C0000
+- expected_values:
+    LOAD_PCT: 0
+  response: |-
+    7E803410400
+    7E803410D0B
+    7E804410C0000
+- expected_values:
+    LOAD_PCT: 0
+  response: |-
+    7E803410400
+    7E803410D19
+    7E803410D1A
+- expected_values:
+    LOAD_PCT: 0
+  response: |-
+    7E803410400
+    7E804410C0000
+- expected_values:
+    LOAD_PCT: 0
+  response: |-
+    7E803410400
+    7E804410C0000
+    7E803410D00
+- expected_values:
+    LOAD_PCT: 0
+  response: |-
+    7E803410400
+    7E804410C0000
+    7E80441100000
+- expected_values:
+    LOAD_PCT: 0
+  response: |-
+    7E803410400
+    7E804410C0000
+    7E804411F00A2
+- expected_values:
+    LOAD_PCT: 0
+  response: |-
+    7E803410400
+    7E804411F005D
+- expected_values:
+    LOAD_PCT: 24.31373
+  response: |-
+    7E80341043E
+    7E803410D1A
+    7E804410C2286
+    7E803410D1A
+    7E804411009E5
+- expected_values:
+    LOAD_PCT: 30.98039
+  response: 7E80341044F
+- expected_values:
+    LOAD_PCT: 0
+  response: |-
+    7E803410D00
+    7E803410400
+- expected_values:
+    LOAD_PCT: 0
+  response: |-
+    7E803410D2D
+    7E803411157
+    7E803410D2E
+    7E804410C0000
+    7E803410400
+    7E8101B491C01000004
+    7E821E5000029960000
+    7E8220021000001BA00
+    7E8230005C900003219
+- expected_values:
+    LOAD_PCT: 0
+  response: |-
+    7E803410D3D
+    7E803410D3D
+    7E803410400
+    7E803410B61
+- expected_values:
+    LOAD_PCT: 0
+  response: |-
+    7E803411157
+    7E803410400
+- expected_values:
+    LOAD_PCT: 0
+  response: |-
+    7E803411158
+    7E803410400
+    7E803410D30
+- expected_values:
+    LOAD_PCT: 0
+  response: |-
+    7E804410C0000
+    7E803410400
+    7E803410D00
+    7E804411F005F
+- expected_values:
+    LOAD_PCT: 0
+  response: |-
+    7E804410C0000
+    7E803410400
+    7E803410D43
+    7E804411F00A7
+- expected_values:
+    LOAD_PCT: 37.64706
+  response: |-
+    7E804410C20C8
+    7E803410460
+    7E80441100F8C
