@@ -1,0 +1,17 @@
+command_id: 6F1.618.22DA2E|e=18,fc=1,f=2007-
+test_cases:
+- expected_values:
+    5SERIES_GEAR_SHIFT: PARK
+  response: 618F10562DA2E0001
+- expected_values:
+    5SERIES_GEAR_SHIFT: PARK
+  response: 618F10562DA2E000A
+- expected_values:
+    5SERIES_GEAR: DRIVE
+  response: 618F10562DA2E0703
+- expected_values:
+    5SERIES_GEAR_SHIFT: PARK
+  response: |-
+    618F1100762DA2A0000
+    618F1210000FFFFFFFF
+    618F10562DA2E0006
