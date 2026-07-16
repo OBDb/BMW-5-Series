@@ -6,17 +6,9 @@ test_cases:
   response: 7E8064124FFFF1629
 - expected_values:
     LAMBDA11_VOLT: 1.99
-    O2S11_VOLT: 0.69339
-  response: 7E8064124FFFF1633
-- expected_values:
-    LAMBDA11_VOLT: 1.99
-    O2S11_VOLT: 0.69497
-  response: 7E8064124FFFF1640
-- expected_values:
-    LAMBDA11_VOLT: 1.99
-    O2S11_VOLT: 0.69741
-  response: 7E8064124FFFF1654
-- expected_values:
-    LAMBDA11_VOLT: 1.99
     O2S11_VOLT: 0.69973
   response: 7E8064124FFFF1667
+- expected_values:
+    LAMBDA11_VOLT: 1.99
+    O2S11_VOLT: 0.90764
+  response: 7E8064124FFFF1D0F
