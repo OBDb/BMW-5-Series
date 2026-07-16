@@ -4,8 +4,5 @@ test_cases:
     5SERIES_AAT: 8
   response: 660F10562D1126065
 - expected_values:
-    5SERIES_AAT: 22.5
-  response: 660F10562D1127D81
-- expected_values:
-    5SERIES_AAT: 22.5
-  response: 660F10562D1127D8F
+    5SERIES_AAT: 36.5
+  response: 660F10562D11299B4

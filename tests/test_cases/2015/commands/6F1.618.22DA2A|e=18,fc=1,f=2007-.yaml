@@ -7,6 +7,12 @@ test_cases:
     618F1100762DA2A0000
     618F1210000FFFFFFFF
 - expected_values:
+    5SERIES_TQ_CNVRT_RPM: 671
+    5SERIES_TRANS_SHAFT_RPM: 0
+  response: |-
+    618F1100762DA2A029F
+    618F1210000FFFFFFFF
+- expected_values:
     5SERIES_TQ_CNVRT_RPM: 753
     5SERIES_TRANS_SHAFT_RPM: 0
   response: |-
