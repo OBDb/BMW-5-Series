@@ -20,3 +20,8 @@ test_cases:
   response: |-
     640F110076217000002
     640F121CEDFFFFFFFFF
+- expected_values:
+    5SERIES_ODO_2: 236034
+  response: |-
+    640F110076217000003
+    640F1219A02FFFFFFFF
