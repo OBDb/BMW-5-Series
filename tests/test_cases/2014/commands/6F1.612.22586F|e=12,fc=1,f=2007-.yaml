@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     5SERIES_EOP: 4
   response: 612F10562586F0497
+- expected_values:
+    5SERIES_EOP: 17
+  response: 612F10562586F1156
