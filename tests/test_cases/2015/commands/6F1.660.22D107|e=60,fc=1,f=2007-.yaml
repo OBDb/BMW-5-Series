@@ -4,6 +4,9 @@ test_cases:
     5SERIES_VSS: 0
   response: 660F10562D1070000
 - expected_values:
+    5SERIES_VSS: 14.8
+  response: 660F10562D1070094
+- expected_values:
     5SERIES_VSS: 25.5
   response: 660F10562D10700FF
 - expected_values:
