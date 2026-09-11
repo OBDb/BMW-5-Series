@@ -13,6 +13,12 @@ test_cases:
 - expected_values:
     MAF: 0
   response: |-
+    7E803410D47
+    7E803410D48
+    7E80441100000
+- expected_values:
+    MAF: 0
+  response: |-
     7E804410C0000
     7E803410D04
     7E80441100000
