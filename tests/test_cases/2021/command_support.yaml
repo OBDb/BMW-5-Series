@@ -44,6 +44,7 @@ supported_commands_by_ecu:
   - 7DF.0131
   - 7DF.0134
   - 7DF.0142
+  - 7DF.0143
   - 7DF.0144
   - 7DF.0146
   - 7DF.0147
@@ -159,6 +160,7 @@ supported_commands_by_ecu:
   - 019A:EHEV_MODE,EHEV_MODE_SUP,HEV_BATT_A,HEV_BATT_A_SUP,HEV_BATT_V,HEV_BATT_V_SUP,HEV_MODE,HEV_MODE_SUP
   - 7E3.7EB.0104
   - 7E3.7EB.0105
+  - 7E3.7EB.010C
   - 7E3.7EB.010D
   - 7E3.7EB.0111
   - 7E3.7EB.0142
