@@ -34,6 +34,7 @@ supported_commands_by_ecu:
   - 7DF.0104
   - 7DF.0105
   - 7DF.0106
+  - 7DF.010C
   - 7DF.010D
   - 7DF.0110
   - 7DF.0111
@@ -119,6 +120,7 @@ supported_commands_by_ecu:
   - 7E0.0104:LOAD_PCT
   - 7E0.0105:ECT
   - 7E0.0106:SHRTFT1
+  - 7E0.010C:RPM
   - 7E0.010D:VSS
   - 7E0.0110:MAF
   - 7E0.0111:TP
@@ -142,6 +144,7 @@ supported_commands_by_ecu:
   - 7E1.7E9.0101
   - 7E1.7E9.0104
   - 7E1.7E9.0105
+  - 7E1.7E9.010C
   - 7E1.7E9.010D
   - 7E1.7E9.0111
   - 7E1.7E9.0121
@@ -213,6 +216,7 @@ unsupported_commands_by_ecu:
   - 7E0.0121:MIL_DIST
   - 7E0.0130:WARM_UPS
   - 7E0.0142:VPWR
+  - 7E0.0143:LOAD_ABS
   - 7E0.0146:AAT
   - 7E0.0147:TP_B
   - 7E0.019D:FUEL_RATE_ALT,VFUEL_RATE
