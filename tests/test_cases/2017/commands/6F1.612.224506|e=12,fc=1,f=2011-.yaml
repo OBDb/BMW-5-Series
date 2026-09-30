@@ -1,0 +1,11 @@
+command_id: 6F1.612.224506|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    5SERIES_OIL_TEMP: 39
+  response: 612F105624506271A
+- expected_values:
+    5SERIES_OIL_TEMP: 39
+  response: 612F10562450627E2
+- expected_values:
+    5SERIES_OIL_TEMP: 40
+  response: 612F1056245062814
