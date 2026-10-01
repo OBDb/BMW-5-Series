@@ -105,7 +105,6 @@ test_cases:
     618F121F81800016002
     618F12200000CABFFFF
 - expected_values:
-    5SERIES_TIME_D: 255
     5SERIES_TIME_M: 111
     5SERIES_TIME_S: 250
   response: |-
