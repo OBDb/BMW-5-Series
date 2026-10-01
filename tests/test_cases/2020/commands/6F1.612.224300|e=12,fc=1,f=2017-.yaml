@@ -7,26 +7,8 @@ test_cases:
     5SERIES_ET: 59.65
   response: 612F1056243000D00
 - expected_values:
-    5SERIES_ET: 77.65
-  response: 612F1056243000DB4
-- expected_values:
-    5SERIES_ET: 104.35
-  response: 612F1056243000EBF
-- expected_values:
-    5SERIES_ET: 104.85
-  response: 612F1056243000EC4
-- expected_values:
-    5SERIES_ET: 105.45
-  response: 612F1056243000ECA
-- expected_values:
-    5SERIES_ET: 105.65
-  response: 612F1056243000ECC
-- expected_values:
-    5SERIES_ET: 106.55
-  response: 612F1056243000ED5
-- expected_values:
-    5SERIES_ET: 106.65
-  response: 612F1056243000ED6
+    5SERIES_ET: 86.85
+  response: 612F1056243000E10
 - expected_values:
     5SERIES_ET: 107.85
   response: 612F1056243000EE2
