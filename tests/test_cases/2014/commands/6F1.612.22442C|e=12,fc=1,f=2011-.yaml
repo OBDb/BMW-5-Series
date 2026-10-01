@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     5SERIES_OIL_LEVEL: 48
   response: 612F10462442C30
+- expected_values:
+    5SERIES_OIL_LEVEL: 50
+  response: 612F10462442C32

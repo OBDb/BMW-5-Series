@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     5SERIES_OIL_TEMP: 5
   response: 612F10562450605A6
+- expected_values:
+    5SERIES_OIL_TEMP: 19
+  response: 612F10562450613A5
