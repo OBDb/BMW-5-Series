@@ -1,6 +1,12 @@
 command_id: 6F1.629.22DBE5|e=29,fc=1,f=2011-
 test_cases:
 - expected_values:
+    5SERIES_BRAKE_P: 9.8
+  response: |-
+    629F1100F62DBE50062
+    629F1210000FF260000
+    629F122FF260000FFFF
+- expected_values:
     5SERIES_BRAKE_P: 18.9
   response: |-
     629F1100F62DBE500BD
