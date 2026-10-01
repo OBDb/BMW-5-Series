@@ -1,0 +1,6 @@
+command_id: 6F1.614.22DEF5|e=14,fc=1,f=2011-
+test_cases:
+- expected_values:
+    5SERIES_CHG_CABLE_I: 253
+    5SERIES_CHG_PLUG_ST: 0
+  response: 614F10562DEF500FD
