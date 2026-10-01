@@ -11,27 +11,7 @@ test_cases:
     612F1100762558E0001
     612F1217A60FFFFFFFF
 - expected_values:
-    5SERIES_ODO_DME: 96866
-  response: |-
-    612F1100762558E0001
-    612F1217A62FFFFFFFF
-- expected_values:
-    5SERIES_ODO_DME: 96876
-  response: |-
-    612F1100762558E0001
-    612F1217A6CFFFFFFFF
-- expected_values:
-    5SERIES_ODO_DME: 96878
-  response: |-
-    612F1100762558E0001
-    612F1217A6EFFFFFFFF
-- expected_values:
     5SERIES_ODO_DME: 96887
   response: |-
     612F1100762558E0001
     612F1217A77FFFFFFFF
-- expected_values:
-    5SERIES_ODO_DME: 96888
-  response: |-
-    612F1100762558E0001
-    612F1217A78FFFFFFFF

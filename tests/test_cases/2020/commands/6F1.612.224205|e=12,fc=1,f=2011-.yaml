@@ -4,26 +4,11 @@ test_cases:
     5SERIES_BOOST_P: 98.25
   response: 612F1056242053120
 - expected_values:
-    5SERIES_BOOST_P: 98.79688
-  response: 612F1056242053166
-- expected_values:
-    5SERIES_BOOST_P: 98.92188
-  response: 612F1056242053176
-- expected_values:
-    5SERIES_BOOST_P: 99
-  response: 612F1056242053180
-- expected_values:
-    5SERIES_BOOST_P: 100.63281
-  response: 612F1056242053251
-- expected_values:
     5SERIES_BOOST_P: 104.03906
   response: 612F1056242053405
 - expected_values:
-    5SERIES_BOOST_P: 119.625
-  response: 612F1056242053BD0
-- expected_values:
-    5SERIES_BOOST_P: 130.17188
-  response: 612F1056242054116
+    5SERIES_BOOST_P: 117.98438
+  response: 612F1056242053AFE
 - expected_values:
     5SERIES_BOOST_P: 141.59375
   response: 612F10562420546CC

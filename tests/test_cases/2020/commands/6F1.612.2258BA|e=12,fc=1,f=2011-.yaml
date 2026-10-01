@@ -4,26 +4,8 @@ test_cases:
     5SERIES_CRANK_TQ: 0
   response: 612F1056258BA0000
 - expected_values:
-    5SERIES_CRANK_TQ: 52.5
-  response: 612F1056258BA020D
-- expected_values:
-    5SERIES_CRANK_TQ: 60.7
-  response: 612F1056258BA025F
-- expected_values:
-    5SERIES_CRANK_TQ: 65.4
-  response: 612F1056258BA028E
-- expected_values:
-    5SERIES_CRANK_TQ: 69.3
-  response: 612F1056258BA02B5
-- expected_values:
-    5SERIES_CRANK_TQ: 100.8
-  response: 612F1056258BA03F0
-- expected_values:
-    5SERIES_CRANK_TQ: 132.7
-  response: 612F1056258BA052F
-- expected_values:
-    5SERIES_CRANK_TQ: 193.9
-  response: 612F1056258BA0793
+    5SERIES_CRANK_TQ: 50.4
+  response: 612F1056258BA01F8
 - expected_values:
     5SERIES_CRANK_TQ: 216
   response: 612F1056258BA0870

@@ -16,8 +16,17 @@ test_cases:
     5SERIES_IGN_ANGLE: 21
   response: 612F1046259FA1C
 - expected_values:
+    5SERIES_IGN_ANGLE: 24.75
+  response: 612F1046259FA21
+- expected_values:
     5SERIES_IGN_ANGLE: -24.75
   response: 612F1046259FADF
 - expected_values:
     5SERIES_IGN_ANGLE: -13.5
   response: 612F1046259FAEE
+- expected_values:
+    5SERIES_IGN_ANGLE: -6
+  response: 612F1046259FAF8
+- expected_values:
+    5SERIES_IGN_ANGLE: -4.5
+  response: 612F1046259FAFA
