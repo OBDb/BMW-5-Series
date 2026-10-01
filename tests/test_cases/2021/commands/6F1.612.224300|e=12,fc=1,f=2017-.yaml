@@ -1,0 +1,20 @@
+command_id: 6F1.612.224300|e=12,fc=1,f=2017-
+test_cases:
+- expected_values:
+    5SERIES_ET: 32.55
+  response: 612F1056243000BF1
+- expected_values:
+    5SERIES_ET: 33.65
+  response: 612F1056243000BFC
+- expected_values:
+    5SERIES_ET: 34.25
+  response: 612F1056243000C02
+- expected_values:
+    5SERIES_ET: 35.35
+  response: 612F1056243000C0D
+- expected_values:
+    5SERIES_ET: 36.35
+  response: 612F1056243000C17
+- expected_values:
+    5SERIES_ET: 36.75
+  response: 612F1056243000C1B

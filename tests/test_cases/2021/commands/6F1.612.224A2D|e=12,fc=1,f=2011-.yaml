@@ -1,0 +1,20 @@
+command_id: 6F1.612.224A2D|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    5SERIES_MAP: 96.99219
+  response: 612F105624A2D307F
+- expected_values:
+    5SERIES_MAP: 97.1875
+  response: 612F105624A2D3098
+- expected_values:
+    5SERIES_MAP: 97.24219
+  response: 612F105624A2D309F
+- expected_values:
+    5SERIES_MAP: 97.26562
+  response: 612F105624A2D30A2
+- expected_values:
+    5SERIES_MAP: 97.32031
+  response: 612F105624A2D30A9
+- expected_values:
+    5SERIES_MAP: 97.42969
+  response: 612F105624A2D30B7
