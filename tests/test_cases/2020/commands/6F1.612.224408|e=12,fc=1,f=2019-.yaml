@@ -9,3 +9,24 @@ test_cases:
 - expected_values:
     5SERIES_EOT_DME_K: 79.55
   response: 612F1056244080DC7
+- expected_values:
+    5SERIES_EOT_DME_K: 106.55
+  response: 612F1056244080ED5
+- expected_values:
+    5SERIES_EOT_DME_K: 107.35
+  response: 612F1056244080EDD
+- expected_values:
+    5SERIES_EOT_DME_K: 107.45
+  response: 612F1056244080EDE
+- expected_values:
+    5SERIES_EOT_DME_K: 107.75
+  response: 612F1056244080EE1
+- expected_values:
+    5SERIES_EOT_DME_K: 108.45
+  response: 612F1056244080EE8
+- expected_values:
+    5SERIES_EOT_DME_K: 109.35
+  response: 612F1056244080EF1
+- expected_values:
+    5SERIES_EOT_DME_K: 109.95
+  response: 612F1056244080EF7

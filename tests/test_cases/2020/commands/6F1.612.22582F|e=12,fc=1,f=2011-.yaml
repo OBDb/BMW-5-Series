@@ -9,3 +9,21 @@ test_cases:
 - expected_values:
     5SERIES_CAT_T: 506.15
   response: 612F10562582F1E71
+- expected_values:
+    5SERIES_CAT_T: 578.55
+  response: 612F10562582F2145
+- expected_values:
+    5SERIES_CAT_T: 613.65
+  response: 612F10562582F22A4
+- expected_values:
+    5SERIES_CAT_T: 629.75
+  response: 612F10562582F2345
+- expected_values:
+    5SERIES_CAT_T: 635.75
+  response: 612F10562582F2381
+- expected_values:
+    5SERIES_CAT_T: 670.85
+  response: 612F10562582F24E0
+- expected_values:
+    5SERIES_CAT_T: 674.95
+  response: 612F10562582F2509

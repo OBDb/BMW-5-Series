@@ -3,3 +3,21 @@ test_cases:
 - expected_values:
     5SERIES_IAT_DME: 27
   response: 612F10462580F64
+- expected_values:
+    5SERIES_IAT_DME: 30.75
+  response: 612F10462580F69
+- expected_values:
+    5SERIES_IAT_DME: 34.5
+  response: 612F10462580F6E
+- expected_values:
+    5SERIES_IAT_DME: 35.25
+  response: 612F10462580F6F
+- expected_values:
+    5SERIES_IAT_DME: 37.5
+  response: 612F10462580F72
+- expected_values:
+    5SERIES_IAT_DME: 45
+  response: 612F10462580F7C
+- expected_values:
+    5SERIES_IAT_DME: 48.75
+  response: 612F10462580F81
