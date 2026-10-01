@@ -3,3 +3,10 @@ test_cases:
 - expected_values:
     5SERIES_HVAC_RECIRC: 0
   response: 678F10562D9310000
+- expected_values:
+    5SERIES_HVAC_RECIRC: 0
+  response: |-
+    678F10562D96B0088
+    678F1100762D91A0008
+    678F1210008FFFFFFFF
+    678F10562D9310000

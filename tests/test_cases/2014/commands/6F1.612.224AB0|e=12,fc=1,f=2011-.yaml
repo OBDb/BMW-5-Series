@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     5SERIES_BOOST_P_SET: 103.89844
   response: 612F105624AB067E6
+- expected_values:
+    5SERIES_BOOST_P_SET: 104.01172
+  response: 612F105624AB06803
