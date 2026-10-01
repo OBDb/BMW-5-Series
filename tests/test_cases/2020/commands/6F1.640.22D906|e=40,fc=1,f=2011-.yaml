@@ -1,6 +1,10 @@
 command_id: 6F1.640.22D906|e=40,fc=1,f=2011-
 test_cases:
 - expected_values:
+    5SERIES_AC_COMP_PWM: 0
+    5SERIES_AC_COMP_STAT: 0
+  response: 640F10662D906000000
+- expected_values:
     5SERIES_AC_COMP_PWM: 32
     5SERIES_AC_COMP_STAT: 1
   response: 640F10662D906000120
@@ -8,6 +12,18 @@ test_cases:
     5SERIES_AC_COMP_PWM: 34
     5SERIES_AC_COMP_STAT: 1
   response: 640F10662D906000122
+- expected_values:
+    5SERIES_AC_COMP_PWM: 35
+    5SERIES_AC_COMP_STAT: 1
+  response: 640F10662D906000123
+- expected_values:
+    5SERIES_AC_COMP_PWM: 36
+    5SERIES_AC_COMP_STAT: 1
+  response: 640F10662D906000124
+- expected_values:
+    5SERIES_AC_COMP_PWM: 37
+    5SERIES_AC_COMP_STAT: 1
+  response: 640F10662D906000125
 - expected_values:
     5SERIES_AC_COMP_PWM: 40
     5SERIES_AC_COMP_STAT: 1

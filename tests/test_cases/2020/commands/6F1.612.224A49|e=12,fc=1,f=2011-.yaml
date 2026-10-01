@@ -4,8 +4,26 @@ test_cases:
     5SERIES_IGN_TIMING_1: 1.2
   response: 612F105624A49000C
 - expected_values:
+    5SERIES_IGN_TIMING_1: 3.2
+  response: 612F105624A490020
+- expected_values:
+    5SERIES_IGN_TIMING_1: 3.5
+  response: 612F105624A490023
+- expected_values:
     5SERIES_IGN_TIMING_1: 5.4
   response: 612F105624A490036
 - expected_values:
+    5SERIES_IGN_TIMING_1: 18.5
+  response: 612F105624A4900B9
+- expected_values:
+    5SERIES_IGN_TIMING_1: 20.5
+  response: 612F105624A4900CD
+- expected_values:
     5SERIES_IGN_TIMING_1: -25.6
   response: 612F105624A49FF00
+- expected_values:
+    5SERIES_IGN_TIMING_1: -13.5
+  response: 612F105624A49FF79
+- expected_values:
+    5SERIES_IGN_TIMING_1: -2.4
+  response: 612F105624A49FFE8
