@@ -85,12 +85,12 @@
     {"id": "5SERIES_12V_V", "path": "Electrical", "fmt": {"bix": 16, "len": 16, "max": 22.3837, "min": 6,       "div": 4000, "add": 6,                  "unit": "volts"   }, "name": "12V battery voltage",     "suggestedMetric": "starterBatteryVoltage"},
     {"id": "5SERIES_12V_A", "path": "Electrical", "fmt": {"bix": 32, "len": 16, "max": 5042.8,  "min": -200,    "div": 12.5, "add": -200,               "unit": "amps"    }, "name": "12V battery current"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "40A9"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2019, "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "40A9"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2022 },
   "signals": [
     {"id": "5SERIES_BAT_CAP",          "path": "Battery", "fmt": {           "len": 8, "max": 255, "unit": "ampereHours" }, "name": "Battery capacity"},
     {"id": "5SERIES_ORIGINAL_BAT_CAP", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "ampereHours" }, "name": "Original battery capacity"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "40AD"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2019, "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "40AD"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2022 },
   "signals": [
     {"id": "5SERIES_BAT_ST_CHG_CURRENT",     "path": "Battery", "fmt": {            "len": 8,  "max": 255,   "unit": "percent" }, "name": "Battery state of charge current"},
     {"id": "5SERIES_BAT_ST_CHG_LAST_1",      "path": "Battery", "fmt": {"bix": 16,  "len": 8,  "max": 255,   "unit": "percent" }, "name": "Battery state of charge last-1"},
@@ -114,11 +114,11 @@
   "signals": [
     {"id": "5SERIES_COOLANT", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 200, "unit": "celsius" }, "name": "Coolant temperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4201"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2018, 2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4201"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2018, 2019], "from": 2022 },
   "signals": [
     {"id": "5SERIES_BARO", "path": "Engine", "fmt": { "len": 16, "max": 255.99, "div": 256, "unit": "kilopascal" }, "name": "Barometric pressure"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4205"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2018, 2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4205"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2018, 2019], "from": 2022 },
   "signals": [
     {"id": "5SERIES_BOOST_P", "path": "Engine", "fmt": { "len": 16, "max": 511.99, "div": 128, "unit": "kilopascal" }, "name": "Boost pressure"}
   ]},
@@ -142,7 +142,7 @@
   "signals": [
     {"id": "5SERIES_EOT_DME_K", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "442C"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2018, 2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "442C"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2018, 2019], "from": 2022 },
   "signals": [
     {"id": "5SERIES_OIL_LEVEL", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil level"}
   ]},
@@ -238,11 +238,11 @@
   "signals": [
     {"id": "5SERIES_CRANK_TQ", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "newtonMeters" }, "name": "Crank torque"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "58F3"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2018, 2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "58F3"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2018, 2019], "from": 2022 },
   "signals": [
     {"id": "5SERIES_LOW_SIDE_FUEL_P", "path": "Fuel", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "bars" }, "name": "Low side fuel pressure"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "59FA"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2019, "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "59FA"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2022 },
   "signals": [
     {"id": "5SERIES_IGN_ANGLE", "path": "Engine", "fmt": { "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees" }, "name": "Ignition angle"}
   ]},
@@ -332,7 +332,7 @@
   "signals": [
     {"id": "5SERIES_CLU_LOCK_UP", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Clutch lock-up speed"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "442F"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2018, 2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "442F"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2018, 2019], "from": 2022 },
   "signals": [
     {"id": "5SERIES_ENG_TQ_6F1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
@@ -463,11 +463,11 @@
     {"id": "5SERIES_RL_SPD", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "5SERIES_RR_SPD", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE5"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2018, 2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE5"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2018, 2019], "from": 2022 },
   "signals": [
     {"id": "5SERIES_BRAKE_P", "path": "Control", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "bars" }, "name": "Brake pressure"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC98"}, "freq": 15, "filter": { "from": 2011 }, "dbgfilter": { "to": 2019, "from": 2022 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC98"}, "freq": 15, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2022 },
   "signals": [
     {"id": "5SERIES_TPMS_POS_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                                                         "unit": "scalar"  },               "name": "Front left tire sensor position",   "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "5SERIES_TP_FL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 6.3,   "min": -32.76, "div": 1000,               "sign": true,                 "nullmax": 6.3,                   "unit": "bars"   },                                           "name": "Front left tire pressure",                                      "suggestedMetric": "frontLeftTirePressure"},
@@ -476,7 +476,7 @@
     {"id": "5SERIES_TPMS_RX_FL",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                                                         "unit": "percent" },               "name": "Tire sensor reception, front left"},
     {"id": "5SERIES_TPMS_BAT_FL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                                                           "unit": "scalar" },                                           "name": "Front left tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC99"}, "freq": 15, "filter": { "from": 2011 }, "dbgfilter": { "to": 2019, "from": 2022 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC99"}, "freq": 15, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2022 },
   "signals": [
     {"id": "5SERIES_TPMS_POS_FR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                                                         "unit": "scalar"  },               "name": "Front right tire sensor position",   "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "5SERIES_TP_FR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 6.3,   "min": -32.76, "div": 1000,               "sign": true,                 "nullmax": 6.3,                   "unit": "bars"   },                                            "name": "Front right tire pressure",                                     "suggestedMetric": "frontRightTirePressure"},
@@ -485,7 +485,7 @@
     {"id": "5SERIES_TPMS_RX_FR",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                                                         "unit": "percent" },               "name": "Tire sensor reception, front right"},
     {"id": "5SERIES_TPMS_BAT_FR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                                                           "unit": "scalar" },                                            "name": "Front right tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9A"}, "freq": 15, "filter": { "from": 2011 }, "dbgfilter": { "to": 2019, "from": 2022 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9A"}, "freq": 15, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2022 },
   "signals": [
     {"id": "5SERIES_TPMS_POS_RL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                                                         "unit": "scalar"  },               "name": "Rear left tire sensor position",   "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "5SERIES_TP_RL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 6.3,   "min": -32.76, "div": 1000,               "sign": true,                 "nullmax": 6.3,                   "unit": "bars"   },                                          "name": "Rear left tire pressure",                                       "suggestedMetric": "rearLeftTirePressure"},
@@ -494,7 +494,7 @@
     {"id": "5SERIES_TPMS_RX_RL",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                                                         "unit": "percent" },               "name": "Tire sensor reception, rear left"},
     {"id": "5SERIES_TPMS_BAT_RL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                                                           "unit": "scalar" },                                          "name": "Rear left tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9B"}, "freq": 15, "filter": { "from": 2011 }, "dbgfilter": { "to": 2019, "from": 2022 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9B"}, "freq": 15, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2022 },
   "signals": [
     {"id": "5SERIES_TPMS_POS_RR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                                                         "unit": "scalar"  },               "name": "Rear right tire sensor position",   "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "5SERIES_TP_RR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 6.3,   "min": -32.76, "div": 1000,               "sign": true,                 "nullmax": 6.3,                   "unit": "bars"   },                                           "name": "Rear right tire pressure",                                      "suggestedMetric": "rearRightTirePressure"},
@@ -503,7 +503,7 @@
     {"id": "5SERIES_TPMS_RX_RR",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                                                         "unit": "percent" },               "name": "Tire sensor reception, rear right"},
     {"id": "5SERIES_TPMS_BAT_RR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                                                           "unit": "scalar" },                                           "name": "Rear right tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "cmd": {"22": "DB99"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2019, "from": 2022 },
+{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "cmd": {"22": "DB99"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2022 },
   "signals": [
     {"id": "5SERIES_STEER_TQ", "path": "Engine", "fmt": { "len": 16, "max": 255, "min": -256, "div": 128, "sign": true, "unit": "newtonMeters" }, "name": "Steering torque"}
   ]},
@@ -515,7 +515,7 @@
   "signals": [
     {"id": "5SERIES_PARK_BRAKE", "path": "Control", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Parking brake applied"}
   ]},
-{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "D906"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2019, "from": 2022 },
+{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "D906"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2022 },
   "signals": [
     {"id": "5SERIES_AC_COMP_STAT", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar"  }, "name": "Air conditioning compressor status"},
     {"id": "5SERIES_AC_COMP_PWM",  "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "percent" }, "name": "Air conditioning compressor PWM"}
@@ -559,17 +559,17 @@
   "signals": [
     {"id": "5SERIES_AAT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D129"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2019, "from": 2022 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D129"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2022 },
   "signals": [
     {"id": "5SERIES_BC_AVG_CONS", "path": "Engine", "fmt": {           "len": 16, "max": 6553, "div": 10,  "unit": "kilowattHoursPer100Kilometers" }, "name": "Trip computer average consumption"},
     {"id": "5SERIES_BC_AVG_SPD",  "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 655,  "div": 100, "unit": "kilometersPerHour"             }, "name": "Trip computer average speed"},
     {"id": "5SERIES_BC_RANGE",    "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 6553, "div": 10,  "unit": "kilometers"                    }, "name": "Trip computer range"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D12A"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2019, "from": 2022 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D12A"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2022 },
   "signals": [
     {"id": "5SERIES_CONS_KWH_100KM", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "scalar" }, "name": "Consumption, kwh/100km"}
   ]},
-{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D030"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "from": 2015 },
+{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D030"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2016], "from": 2018 },
   "signals": [
     {"id": "5SERIES_NBT_WHL_SPD_1", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 1"},
     {"id": "5SERIES_NBT_WHL_SPD_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 2"},
@@ -585,7 +585,7 @@
   "signals": [
     {"id": "5SERIES_CABIN_T", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D8C5"}, "freq": 10, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2018, 2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D8C5"}, "freq": 10, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2018, 2019], "from": 2022 },
   "signals": [
     {"id": "5SERIES_COMP_STATE", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C compressor operating state"}
   ]},
