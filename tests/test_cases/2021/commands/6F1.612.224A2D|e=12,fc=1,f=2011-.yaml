@@ -18,3 +18,9 @@ test_cases:
 - expected_values:
     5SERIES_MAP: 97.42969
   response: 612F105624A2D30B7
+- expected_values:
+    5SERIES_MAP: 97.46094
+  response: 612F105624A2D30BB
+- expected_values:
+    5SERIES_MAP: 97.54688
+  response: 612F105624A2D30C6

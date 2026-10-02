@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     5SERIES_ENG_TQ_6F1: 29
   response: 618F10562442F001D
+- expected_values:
+    5SERIES_ENG_TQ_6F1: 65510
+  response: 618F10562442FFFE6
