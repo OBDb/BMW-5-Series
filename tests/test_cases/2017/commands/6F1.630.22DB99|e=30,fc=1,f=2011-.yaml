@@ -4,11 +4,29 @@ test_cases:
     5SERIES_STEER_TQ: 0.61719
   response: 630F10662DB99004F00
 - expected_values:
+    5SERIES_STEER_TQ: 1.74219
+  response: 630F10662DB9900DF00
+- expected_values:
     5SERIES_STEER_TQ: 3.15625
   response: 630F10662DB99019400
+- expected_values:
+    5SERIES_STEER_TQ: -0.49219
+  response: 630F10662DB99FFC100
+- expected_values:
+    5SERIES_STEER_TQ: -0.21875
+  response: 630F10662DB99FFE400
+- expected_values:
+    5SERIES_STEER_TQ: -0.21094
+  response: 630F10662DB99FFE500
+- expected_values:
+    5SERIES_STEER_TQ: -0.20312
+  response: 630F10662DB99FFE600
 - expected_values:
     5SERIES_STEER_TQ: -0.19531
   response: 630F10662DB99FFE700
 - expected_values:
     5SERIES_STEER_TQ: -0.16406
   response: 630F10662DB99FFEB00
+- expected_values:
+    5SERIES_STEER_TQ: -0.09375
+  response: 630F10662DB99FFF400
