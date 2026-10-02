@@ -4,6 +4,9 @@ test_cases:
     5SERIES_BOOST_P: 256.57031
   response: 612F1056242058049
 - expected_values:
+    5SERIES_BOOST_P: 256.57812
+  response: 612F105624205804A
+- expected_values:
     5SERIES_BOOST_P: 256.59375
   response: 612F105624205804C
 - expected_values:
