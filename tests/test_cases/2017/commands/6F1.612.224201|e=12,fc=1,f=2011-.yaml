@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     5SERIES_BARO: 146.56641
   response: 612F1056242019291
+- expected_values:
+    5SERIES_BARO: 146.96875
+  response: 612F10562420192F8
