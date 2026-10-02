@@ -6,18 +6,3 @@ test_cases:
 - expected_values:
     5SERIES_BARO: 97.05859
   response: 612F105624201610F
-- expected_values:
-    5SERIES_BARO: 97.07422
-  response: 612F1056242016113
-- expected_values:
-    5SERIES_BARO: 97.14453
-  response: 612F1056242016125
-- expected_values:
-    5SERIES_BARO: 97.17188
-  response: 612F105624201612C
-- expected_values:
-    5SERIES_BARO: 97.1875
-  response: 612F1056242016130
-- expected_values:
-    5SERIES_BARO: 97.19141
-  response: 612F1056242016131

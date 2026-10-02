@@ -18,3 +18,15 @@ test_cases:
 - expected_values:
     5SERIES_ET: 36.75
   response: 612F1056243000C1B
+- expected_values:
+    5SERIES_ET: 46.55
+  response: 612F1056243000C7D
+- expected_values:
+    5SERIES_ET: 49.35
+  response: 612F1056243000C99
+- expected_values:
+    5SERIES_ET: 50.55
+  response: 612F1056243000CA5
+- expected_values:
+    5SERIES_ET: 52.85
+  response: 612F1056243000CBC

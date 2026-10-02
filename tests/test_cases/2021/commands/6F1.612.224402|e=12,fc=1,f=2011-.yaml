@@ -15,3 +15,9 @@ test_cases:
 - expected_values:
     5SERIES_EOT_6F1: 56
   response: 612F1056244020070
+- expected_values:
+    5SERIES_EOT_6F1: 57
+  response: 612F1056244020072
+- expected_values:
+    5SERIES_EOT_6F1: 58
+  response: 612F1056244020074

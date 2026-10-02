@@ -35,3 +35,18 @@ test_cases:
   response: |-
     612F1100762558E0001
     612F121AF59FFFFFFFF
+- expected_values:
+    5SERIES_ODO_DME: 110426
+  response: |-
+    612F1100762558E0001
+    612F121AF5AFFFFFFFF
+- expected_values:
+    5SERIES_ODO_DME: 110433
+  response: |-
+    612F1100762558E0001
+    612F121AF61FFFFFFFF
+- expected_values:
+    5SERIES_ODO_DME: 110436
+  response: |-
+    612F1100762558E0001
+    612F121AF64FFFFFFFF
