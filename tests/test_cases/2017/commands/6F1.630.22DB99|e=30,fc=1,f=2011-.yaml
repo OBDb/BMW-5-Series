@@ -1,0 +1,14 @@
+command_id: 6F1.630.22DB99|e=30,fc=1,f=2011-
+test_cases:
+- expected_values:
+    5SERIES_STEER_TQ: 0.61719
+  response: 630F10662DB99004F00
+- expected_values:
+    5SERIES_STEER_TQ: 3.15625
+  response: 630F10662DB99019400
+- expected_values:
+    5SERIES_STEER_TQ: -0.19531
+  response: 630F10662DB99FFE700
+- expected_values:
+    5SERIES_STEER_TQ: -0.16406
+  response: 630F10662DB99FFEB00
