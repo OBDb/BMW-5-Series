@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     5SERIES_LAMBDA_2: 0
   response: 612F10562582C0000
+- expected_values:
+    5SERIES_LAMBDA_2: 1.12744
+  response: 612F10562582C120A

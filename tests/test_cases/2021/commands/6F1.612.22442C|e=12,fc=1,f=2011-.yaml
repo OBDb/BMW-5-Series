@@ -1,8 +1,17 @@
 command_id: 6F1.612.22442C|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
+    5SERIES_OIL_LEVEL: 82
+  response: 612F10462442C52
+- expected_values:
+    5SERIES_OIL_LEVEL: 84
+  response: 612F10462442C54
+- expected_values:
     5SERIES_OIL_LEVEL: 87
   response: 612F10462442C57
+- expected_values:
+    5SERIES_OIL_LEVEL: 89
+  response: 612F10462442C59
 - expected_values:
     5SERIES_OIL_LEVEL: 93
   response: 612F10462442C5D
