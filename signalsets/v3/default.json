@@ -106,11 +106,11 @@
     {"id": "5SERIES_BAT_TIME_ST_CHG_90_100", "path": "Battery", "fmt": {"bix": 176, "len": 16, "max": 65535, "unit": "percent" }, "name": "Battery time in state of charge 90-100%"},
     {"id": "5SERIES_BAT_TIME_INVALID_ST",    "path": "Battery", "fmt": {"bix": 192, "len": 16, "max": 65535, "unit": "percent" }, "name": "Battery time in invalid state of charge"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "40CB"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2019, "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "40CB"}, "freq": 5, "filter": { "from": 2020 }, "dbgfilter": { "from": 2022 },
   "signals": [
     {"id": "5SERIES_ETHANOL_CAN", "path": "Fuel", "fmt": {"bix": 104, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Ethanol content, CAN broadcast, live"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "411E"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2019, "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "411E"}, "freq": 1, "filter": { "from": 2020 }, "dbgfilter": { "from": 2022 },
   "signals": [
     {"id": "5SERIES_COOLANT", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 200, "unit": "celsius" }, "name": "Coolant temperature"}
   ]},
@@ -194,15 +194,15 @@
   "signals": [
     {"id": "5SERIES_EGT_CALC", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 1200, "div": 10, "unit": "celsius" }, "name": "Exhaust gas calculated temperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "558E"}, "freq": 60, "filter": { "from": 2011 }, "dbgfilter": { "to": 2019, "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "558E"}, "freq": 60, "filter": { "from": 2020 }, "dbgfilter": { "from": 2022 },
   "signals": [
     {"id": "5SERIES_ODO_DME", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, engine computer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "558F"}, "freq": 60, "filter": { "from": 2011 }, "dbgfilter": { "to": 2019, "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "558F"}, "freq": 60, "filter": { "from": 2020 }, "dbgfilter": { "from": 2022 },
   "signals": [
     {"id": "5SERIES_ENG_HOURS", "path": "Trips", "fmt": { "len": 32, "max": 2147483647, "div": 2, "unit": "hours" }, "name": "Engine operating hours"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "56D7"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2019, "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "56D7"}, "freq": 1, "filter": { "from": 2020 }, "dbgfilter": { "from": 2022 },
   "signals": [
     {"id": "5SERIES_FRP", "path": "Fuel", "fmt": { "len": 16, "max": 1310, "div": 50, "unit": "bars" }, "name": "Fuel rail pressure"}
   ]},
@@ -254,7 +254,7 @@
   "signals": [
     {"id": "5SERIES_APP", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 4095, "div": 16, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
-{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "cmd": {"22": "DEF1"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "cmd": {"22": "DEF1"}, "freq": 5, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "5SERIES_CHG_FLAP_CLOSED", "path": "Doors", "fmt": { "len": 16, "max": 1, "unit": "yesno" }, "name": "Charge flap closed"}
   ]},
@@ -262,11 +262,11 @@
   "signals": [
     {"id": "5SERIES_CHG_READY", "path": "Battery", "fmt": { "len": 8, "max": 1, "unit": "yesno" }, "name": "Charging interface ready"}
   ]},
-{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "cmd": {"22": "DEF3"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "cmd": {"22": "DEF3"}, "freq": 5, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "5SERIES_CHG_LED", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Charge port light state"}
   ]},
-{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "cmd": {"22": "DEF5"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "cmd": {"22": "DEF5"}, "freq": 5, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "5SERIES_CHG_PLUG_ST", "path": "Engine", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Charging plug state"},
     {"id": "5SERIES_CHG_CABLE_I", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "amps"   }, "name": "Charging cable current rating"}
@@ -589,24 +589,24 @@
   "signals": [
     {"id": "5SERIES_COMP_STATE", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C compressor operating state"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D91A"}, "freq": 10, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "from": 2015 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D91A"}, "freq": 10, "filter": { "from": 2011, "to": 2017 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "5SERIES_AIR_DIST_L", "path": "Climate", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Front air distribution, left"},
     {"id": "5SERIES_AIR_DIST_R", "path": "Climate", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Front air distribution, right"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D92C"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "from": 2015 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D92C"}, "freq": 5, "filter": { "from": 2011, "to": 2017 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "5SERIES_HVAC_OFF", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Climate control off"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D930"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "from": 2015 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D930"}, "freq": 5, "filter": { "from": 2011, "to": 2017 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "5SERIES_HVAC_AUC", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Automatic air recirculation"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D931"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "from": 2015 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D931"}, "freq": 5, "filter": { "from": 2011, "to": 2017 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "5SERIES_HVAC_RECIRC", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Recirculation"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D96B"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "from": 2015 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D96B"}, "freq": 5, "filter": { "from": 2011, "to": 2017 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "5SERIES_IHX_AAT", "path": "Engine", "fmt": { "len": 16, "max": 16343, "min": -16424, "div": 2, "add": -40, "sign": true, "unit": "celsius" }, "name": "Outside temperature, climate control"}
   ]}
