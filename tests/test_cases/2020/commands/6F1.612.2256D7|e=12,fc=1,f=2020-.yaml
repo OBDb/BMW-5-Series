@@ -1,4 +1,4 @@
-command_id: 6F1.612.2256D7|e=12,fc=1,f=2011-
+command_id: 6F1.612.2256D7|e=12,fc=1,f=2020-
 test_cases:
 - expected_values:
     5SERIES_FRP: 135.46
