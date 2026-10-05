@@ -589,24 +589,24 @@
   "signals": [
     {"id": "5SERIES_COMP_STATE", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C compressor operating state"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D91A"}, "freq": 10, "filter": { "from": 2011, "to": 2017 }, "dbgfilter": { "to": 2013, "from": 2015 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D91A"}, "freq": 10, "filter": { "to": 2017, "from": 2023 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "5SERIES_AIR_DIST_L", "path": "Climate", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Front air distribution, left"},
     {"id": "5SERIES_AIR_DIST_R", "path": "Climate", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Front air distribution, right"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D92C"}, "freq": 5, "filter": { "from": 2011, "to": 2017 }, "dbgfilter": { "to": 2013, "from": 2015 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D92C"}, "freq": 5, "filter": { "to": 2017, "from": 2023 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "5SERIES_HVAC_OFF", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Climate control off"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D930"}, "freq": 5, "filter": { "from": 2011, "to": 2017 }, "dbgfilter": { "to": 2013, "from": 2015 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D930"}, "freq": 5, "filter": { "to": 2017, "from": 2023 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "5SERIES_HVAC_AUC", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Automatic air recirculation"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D931"}, "freq": 5, "filter": { "from": 2011, "to": 2017 }, "dbgfilter": { "to": 2013, "from": 2015 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D931"}, "freq": 5, "filter": { "to": 2017, "from": 2023 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "5SERIES_HVAC_RECIRC", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Recirculation"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D96B"}, "freq": 5, "filter": { "from": 2011, "to": 2017 }, "dbgfilter": { "to": 2013, "from": 2015 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D96B"}, "freq": 5, "filter": { "to": 2017, "from": 2023 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "5SERIES_IHX_AAT", "path": "Engine", "fmt": { "len": 16, "max": 16343, "min": -16424, "div": 2, "add": -40, "sign": true, "unit": "celsius" }, "name": "Outside temperature, climate control"}
   ]}
