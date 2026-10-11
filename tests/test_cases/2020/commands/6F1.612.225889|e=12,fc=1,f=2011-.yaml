@@ -4,8 +4,14 @@ test_cases:
     5SERIES_LAMBDA_6F1: 0.98024
   response: 612F1056258890FAF
 - expected_values:
+    5SERIES_LAMBDA_6F1: 0.99831
+  response: 612F1056258890FF9
+- expected_values:
     5SERIES_LAMBDA_6F1: 1.00124
   response: 612F1056258891005
+- expected_values:
+    5SERIES_LAMBDA_6F1: 10.80754
+  response: 612F105625889ACEB
 - expected_values:
     5SERIES_LAMBDA_6F1: null
   response: 612F105625889FFFF
