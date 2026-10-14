@@ -1,0 +1,7 @@
+command_id: 6F1.612.22558E|e=12,fc=1,f=2020-
+test_cases:
+- expected_values:
+    5SERIES_ODO_DME: 74304
+  response: |-
+    612F1100762558E0001
+    612F1212240FFFFFFFF

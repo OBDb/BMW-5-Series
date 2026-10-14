@@ -1,0 +1,8 @@
+command_id: 6F1.660.22D12A|e=60,fc=1,f=2011-
+test_cases:
+- expected_values:
+    5SERIES_CONS_KWH_100KM: 15.2
+  response: |-
+    660F1100D62D12A0098
+    660F1210E3809203C1F
+    660F122153DFFFFFFFF
