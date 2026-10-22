@@ -1,0 +1,32 @@
+command_id: 7E0.0149
+test_cases:
+- expected_values:
+    APP_D: 13.72549
+  response: '7E803414923'
+- expected_values:
+    APP_D: 25.4902
+  response: '7E803414941'
+- expected_values:
+    APP_D: 28.23529
+  response: '7E803414948'
+- expected_values:
+    APP_D: 29.41176
+  response: 7E80341494B
+- expected_values:
+    APP_D: 30.58824
+  response: 7E80341494E
+- expected_values:
+    APP_D: 34.5098
+  response: '7E803414958'
+- expected_values:
+    APP_D: 37.2549
+  response: 7E80341495F
+- expected_values:
+    APP_D: 38.82353
+  response: '7E803414963'
+- expected_values:
+    APP_D: 54.90196
+  response: 7E80341498C
+- expected_values:
+    APP_D: 61.17647
+  response: 7E80341499C
