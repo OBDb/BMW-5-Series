@@ -4,14 +4,5 @@ test_cases:
     5SERIES_ATF_TEMP: 23
   response: 618F10562DA120047
 - expected_values:
-    5SERIES_ATF_TEMP: 41
-  response: 618F10562DA120059
-- expected_values:
-    5SERIES_ATF_TEMP: 42
-  response: 618F10562DA12005A
-- expected_values:
-    5SERIES_ATF_TEMP: 43
-  response: 618F10562DA12005B
-- expected_values:
-    5SERIES_ATF_TEMP: 44
-  response: 618F10562DA12005C
+    5SERIES_ATF_TEMP: 82
+  response: 618F10562DA120082

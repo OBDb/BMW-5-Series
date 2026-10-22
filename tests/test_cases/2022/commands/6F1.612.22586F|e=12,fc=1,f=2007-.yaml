@@ -4,11 +4,8 @@ test_cases:
     5SERIES_EOP: 0.788
   response: 612F10562586F0314
 - expected_values:
-    5SERIES_EOP: 1.032
-  response: 612F10562586F0408
-- expected_values:
     5SERIES_EOP: 2.302
   response: 612F10562586F08FE
 - expected_values:
-    5SERIES_EOP: 4.645
-  response: 612F10562586F1225
+    5SERIES_EOP: 5.634
+  response: 612F10562586F1602

@@ -8,6 +8,24 @@ test_cases:
     660F1100B62D10D0001
     660F1211D1400011D14
 - expected_values:
+    5SERIES_ODO: 53998
+    5SERIES_ODO_ALT: 53998
+  response: |-
+    660F1100B62D10D0000
+    660F121D2EE0000D2EE
+- expected_values:
+    5SERIES_ODO: 54000
+    5SERIES_ODO_ALT: 54000
+  response: |-
+    660F1100B62D10D0000
+    660F121D2F00000D2F0
+- expected_values:
+    5SERIES_ODO: 54111
+    5SERIES_ODO_ALT: 54111
+  response: |-
+    660F1100B62D10D0000
+    660F121D35F0000D35F
+- expected_values:
     5SERIES_ODO: 65997
     5SERIES_ODO_ALT: 65997
   response: |-
@@ -19,18 +37,6 @@ test_cases:
   response: |-
     660F1100B62D10D0001
     660F1211CC700011CC7
-- expected_values:
-    5SERIES_ODO: 72928
-    5SERIES_ODO_ALT: 72928
-  response: |-
-    660F1100B62D10D0001
-    660F1211CE000011CE0
-- expected_values:
-    5SERIES_ODO: 72975
-    5SERIES_ODO_ALT: 72975
-  response: |-
-    660F1100B62D10D0001
-    660F1211D0F00011D0F
 - expected_values:
     5SERIES_ODO: 73045
     5SERIES_ODO_ALT: 73045
