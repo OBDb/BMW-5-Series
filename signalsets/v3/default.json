@@ -102,8 +102,8 @@
     {"id": "5SERIES_BAT_TIME_ST_CHG_40_60",  "path": "Battery", "fmt": {"bix": 112, "len": 16, "max": 65535, "unit": "percent" }, "name": "Battery time in state of charge 40-60%"},
     {"id": "5SERIES_BAT_TIME_ST_CHG_60_70",  "path": "Battery", "fmt": {"bix": 128, "len": 16, "max": 65535, "unit": "percent" }, "name": "Battery time in state of charge 60-70%"},
     {"id": "5SERIES_BAT_TIME_ST_CHG_70_80",  "path": "Battery", "fmt": {"bix": 144, "len": 16, "max": 65535, "unit": "percent" }, "name": "Battery time in state of charge 70-80%"},
-    {"id": "5SERIES_BAT_TIME_ST_CHG_80_90",  "path": "Battery", "fmt": {"bix": 160, "len": 16, "max": 65535, "unit": "percent" }, "name": "Battery time in state of charge 80-90%"},
-    {"id": "5SERIES_BAT_TIME_ST_CHG_90_100", "path": "Battery", "fmt": {"bix": 176, "len": 16, "max": 65535, "unit": "percent" }, "name": "Battery time in state of charge 90-100%"},
+    {"id": "5SERIES_BAT_TIME_ST_CHG_80_90",  "path": "Battery", "fmt": {"bix": 160, "len": 16, "max": 65535, "unit": "scalar"  }, "name": "Battery time in state of charge 80-90%"},
+    {"id": "5SERIES_BAT_TIME_ST_CHG_90_100", "path": "Battery", "fmt": {"bix": 176, "len": 16, "max": 65535, "unit": "scalar"  }, "name": "Battery time in state of charge 90-100%"},
     {"id": "5SERIES_BAT_TIME_INVALID_ST",    "path": "Battery", "fmt": {"bix": 192, "len": 16, "max": 65535, "unit": "percent" }, "name": "Battery time in invalid state of charge"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "40CB"}, "freq": 5, "filter": { "from": 2020 }, "dbgfilter": { "from": 2023 },
@@ -224,7 +224,7 @@
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "582F"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
-    {"id": "5SERIES_CAT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "unit": "celsius" }, "name": "Catalyst temperature"}
+    {"id": "5SERIES_CAT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "nullmin": -273.15, "unit": "celsius" }, "name": "Catalyst temperature"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "586F"}, "freq": 30, "filter": { "from": 2007 }, "dbgfilter": { "to": 2011, "from": 2024 },
   "signals": [
