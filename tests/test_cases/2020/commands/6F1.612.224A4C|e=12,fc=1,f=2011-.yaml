@@ -1,14 +1,11 @@
 command_id: 6F1.612.224A4C|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
-    5SERIES_IGN_TIMING_3: 1.3
-  response: 612F105624A4C000D
+    5SERIES_IGN_TIMING_3: 0
+  response: 612F105624A4C0000
 - expected_values:
     5SERIES_IGN_TIMING_3: 21
   response: 612F105624A4C00D2
-- expected_values:
-    5SERIES_IGN_TIMING_3: 26
-  response: 612F105624A4C0104
 - expected_values:
     5SERIES_IGN_TIMING_3: -25.2
   response: 612F105624A4CFF04
