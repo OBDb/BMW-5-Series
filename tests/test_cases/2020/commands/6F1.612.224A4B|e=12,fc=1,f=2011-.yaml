@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     5SERIES_LOAD_2: 54.5098
   response: 612F104624A4B8B
+- expected_values:
+    5SERIES_LOAD_2: 0
+  response: 612F105624A4B0000

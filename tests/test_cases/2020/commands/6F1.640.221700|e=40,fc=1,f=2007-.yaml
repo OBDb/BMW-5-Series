@@ -6,11 +6,6 @@ test_cases:
     640F110076217000000
     640F121F41CFFFFFFFF
 - expected_values:
-    5SERIES_ODO_2: 78727
-  response: |-
-    640F110076217000001
-    640F1213387FFFFFFFF
-- expected_values:
     5SERIES_ODO_2: 81808
   response: |-
     640F110076217000001
@@ -30,3 +25,8 @@ test_cases:
   response: |-
     640F110076217000001
     640F121A02FFFFFFFFF
+- expected_values:
+    5SERIES_ODO_2: 132356
+  response: |-
+    640F110076217000002
+    640F1210504FFFFFFFF

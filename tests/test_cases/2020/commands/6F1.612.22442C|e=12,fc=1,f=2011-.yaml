@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     5SERIES_OIL_LEVEL: 71
   response: 612F10462442C47
+- expected_values:
+    5SERIES_OIL_LEVEL: 0
+  response: 612F10562442C0000
