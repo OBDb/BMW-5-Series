@@ -22,5 +22,8 @@ test_cases:
     5SERIES_LOAD: 62.25
   response: 612F10462581353
 - expected_values:
+    5SERIES_LOAD: 63
+  response: 612F10462581354
+- expected_values:
     5SERIES_LOAD: 67.5
   response: 612F1046258135A
