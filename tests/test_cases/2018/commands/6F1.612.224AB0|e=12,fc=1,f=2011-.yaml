@@ -1,0 +1,14 @@
+command_id: 6F1.612.224AB0|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    5SERIES_BOOST_P_SET: 101.47266
+  response: 612F105624AB06579
+- expected_values:
+    5SERIES_BOOST_P_SET: 101.54688
+  response: 612F105624AB0658C
+- expected_values:
+    5SERIES_BOOST_P_SET: 101.5625
+  response: 612F105624AB06590
+- expected_values:
+    5SERIES_BOOST_P_SET: 101.58594
+  response: 612F105624AB06596
