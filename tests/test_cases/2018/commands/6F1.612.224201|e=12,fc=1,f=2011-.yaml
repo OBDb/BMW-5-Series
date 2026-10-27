@@ -1,8 +1,23 @@
 command_id: 6F1.612.224201|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
+    5SERIES_BARO: 101.29688
+  response: 612F105624201654C
+- expected_values:
+    5SERIES_BARO: 101.33984
+  response: 612F1056242016557
+- expected_values:
+    5SERIES_BARO: 101.39844
+  response: 612F1056242016566
+- expected_values:
+    5SERIES_BARO: 101.41406
+  response: 612F105624201656A
+- expected_values:
     5SERIES_BARO: 101.41797
   response: 612F105624201656B
+- expected_values:
+    5SERIES_BARO: 101.42188
+  response: 612F105624201656C
 - expected_values:
     5SERIES_BARO: 101.49609
   response: 612F105624201657F

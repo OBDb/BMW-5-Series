@@ -10,5 +10,14 @@ test_cases:
     5SERIES_LOAD_TGT: 15.72656
   response: 612F10562480C029F
 - expected_values:
+    5SERIES_LOAD_TGT: 16.75781
+  response: 612F10562480C02CB
+- expected_values:
+    5SERIES_LOAD_TGT: 34.42969
+  response: 612F10562480C05BD
+- expected_values:
+    5SERIES_LOAD_TGT: 49.80469
+  response: 612F10562480C084D
+- expected_values:
     5SERIES_LOAD_TGT: 59.85938
   response: 612F10562480C09FA

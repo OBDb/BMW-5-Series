@@ -1,8 +1,23 @@
 command_id: 6F1.612.22582F|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
+    5SERIES_CAT_T: 47.45
+  response: 612F10562582F0C86
+- expected_values:
     5SERIES_CAT_T: 439.25
   response: 612F10562582F1BD4
+- expected_values:
+    5SERIES_CAT_T: 479.45
+  response: 612F10562582F1D66
+- expected_values:
+    5SERIES_CAT_T: 486.35
+  response: 612F10562582F1DAB
+- expected_values:
+    5SERIES_CAT_T: 592.45
+  response: 612F10562582F21D0
+- expected_values:
+    5SERIES_CAT_T: 605.05
+  response: 612F10562582F224E
 - expected_values:
     5SERIES_CAT_T: 634.55
   response: 612F10562582F2375

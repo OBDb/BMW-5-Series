@@ -1,6 +1,11 @@
 command_id: 6F1.607.22DD69|e=07,fc=1,f=2016-
 test_cases:
 - expected_values:
+    5SERIES_HVBAT_C: 0.2
+  response: |-
+    607F1100762DD690000
+    607F1210014FFFFFFFF
+- expected_values:
     5SERIES_HVBAT_C: 33.16
   response: |-
     607F1100762DD690000
@@ -10,6 +15,31 @@ test_cases:
   response: |-
     607F1100762DD69FFFF
     607F121F819FFFFFFFF
+- expected_values:
+    5SERIES_HVBAT_C: -16.99
+  response: |-
+    607F1100762DD69FFFF
+    607F121F95DFFFFFFFF
+- expected_values:
+    5SERIES_HVBAT_C: -4.66
+  response: |-
+    607F1100762DD69FFFF
+    607F121FE2EFFFFFFFF
+- expected_values:
+    5SERIES_HVBAT_C: -3.22
+  response: |-
+    607F1100762DD69FFFF
+    607F121FEBEFFFFFFFF
+- expected_values:
+    5SERIES_HVBAT_C: -2.85
+  response: |-
+    607F1100762DD69FFFF
+    607F121FEE3FFFFFFFF
+- expected_values:
+    5SERIES_HVBAT_C: -2.81
+  response: |-
+    607F1100762DD69FFFF
+    607F121FEE7FFFFFFFF
 - expected_values:
     5SERIES_HVBAT_C: -2.61
   response: |-

@@ -4,5 +4,11 @@ test_cases:
     5SERIES_ENG_TQ_6F1: 0
   response: 618F10562442F0000
 - expected_values:
+    5SERIES_ENG_TQ_6F1: 31
+  response: 618F10562442F001F
+- expected_values:
     5SERIES_ENG_TQ_6F1: 43
   response: 618F10562442F002B
+- expected_values:
+    5SERIES_ENG_TQ_6F1: 65534
+  response: 618F10562442FFFFE
