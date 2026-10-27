@@ -1,0 +1,11 @@
+command_id: 6F1.612.22582C|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    5SERIES_LAMBDA_2: 0.99048
+  response: 612F10562582C0FD9
+- expected_values:
+    5SERIES_LAMBDA_2: 1.04053
+  response: 612F10562582C10A6
+- expected_values:
+    5SERIES_LAMBDA_2: 2.19727
+  response: 612F10562582C2328

@@ -1,0 +1,22 @@
+command_id: 6F1.607.22DD69|e=07,fc=1,f=2016-
+test_cases:
+- expected_values:
+    5SERIES_HVBAT_C: 33.16
+  response: |-
+    607F1100762DD690000
+    607F1210CF4FFFFFFFF
+- expected_values:
+    5SERIES_HVBAT_C: -20.23
+  response: |-
+    607F1100762DD69FFFF
+    607F121F819FFFFFFFF
+- expected_values:
+    5SERIES_HVBAT_C: -2.61
+  response: |-
+    607F1100762DD69FFFF
+    607F121FEFBFFFFFFFF
+- expected_values:
+    5SERIES_HVBAT_C: -2.53
+  response: |-
+    607F1100762DD69FFFF
+    607F121FF03FFFFFFFF
