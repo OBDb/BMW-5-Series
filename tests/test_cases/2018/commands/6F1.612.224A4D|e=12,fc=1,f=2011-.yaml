@@ -1,6 +1,21 @@
 command_id: 6F1.612.224A4D|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
+    5SERIES_IGN_TIMING_4: 4.3
+  response: 612F105624A4D002B
+- expected_values:
+    5SERIES_IGN_TIMING_4: 13.5
+  response: 612F105624A4D0087
+- expected_values:
+    5SERIES_IGN_TIMING_4: 17.5
+  response: 612F105624A4D00AF
+- expected_values:
+    5SERIES_IGN_TIMING_4: -26.1
+  response: 612F105624A4DFEFB
+- expected_values:
+    5SERIES_IGN_TIMING_4: -20.5
+  response: 612F105624A4DFF33
+- expected_values:
     5SERIES_IGN_TIMING_4: -17
   response: 612F105624A4DFF56
 - expected_values:
