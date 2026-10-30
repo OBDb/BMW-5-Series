@@ -6,6 +6,11 @@ test_cases:
     607F1100762DD690000
     607F1210000FFFFFFFF
 - expected_values:
+    5SERIES_HVBAT_C: 5.75
+  response: |-
+    607F1100762DD690000
+    607F121023FFFFFFFFF
+- expected_values:
     5SERIES_HVBAT_C: -135.67
   response: |-
     607F1100762DD69FFFF
@@ -15,11 +20,6 @@ test_cases:
   response: |-
     607F1100762DD69FFFF
     607F121F179FFFFFFFF
-- expected_values:
-    5SERIES_HVBAT_C: -4.97
-  response: |-
-    607F1100762DD69FFFF
-    607F121FE0FFFFFFFFF
 - expected_values:
     5SERIES_HVBAT_C: -0.01
   response: |-
