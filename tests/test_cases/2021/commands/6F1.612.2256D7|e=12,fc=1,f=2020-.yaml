@@ -1,14 +1,14 @@
 command_id: 6F1.612.2256D7|e=12,fc=1,f=2020-
 test_cases:
 - expected_values:
+    5SERIES_FRP: 92.12
+  response: 612F1056256D711FE
+- expected_values:
+    5SERIES_FRP: 92.24
+  response: 612F1056256D71204
+- expected_values:
     5SERIES_FRP: 197.36
   response: 612F1056256D7268C
-- expected_values:
-    5SERIES_FRP: 210.4
-  response: 612F1056256D72918
-- expected_values:
-    5SERIES_FRP: 214.6
-  response: 612F1056256D729EA
 - expected_values:
     5SERIES_FRP: 215.52
   response: 612F1056256D72A18
