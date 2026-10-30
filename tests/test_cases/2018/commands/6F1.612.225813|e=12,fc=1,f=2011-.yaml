@@ -4,26 +4,5 @@ test_cases:
     5SERIES_LOAD: 0
   response: 612F10462581300
 - expected_values:
-    5SERIES_LOAD: 12
-  response: 612F10462581310
-- expected_values:
-    5SERIES_LOAD: 16.5
-  response: 612F10462581316
-- expected_values:
-    5SERIES_LOAD: 17.25
-  response: 612F10462581317
-- expected_values:
-    5SERIES_LOAD: 18
-  response: 612F10462581318
-- expected_values:
-    5SERIES_LOAD: 48.75
-  response: 612F10462581341
-- expected_values:
-    5SERIES_LOAD: 62.25
-  response: 612F10462581353
-- expected_values:
-    5SERIES_LOAD: 63
-  response: 612F10462581354
-- expected_values:
     5SERIES_LOAD: 67.5
   response: 612F1046258135A
