@@ -10,5 +10,5 @@ test_cases:
     5SERIES_FRP: 197.36
   response: 612F1056256D7268C
 - expected_values:
-    5SERIES_FRP: 215.52
-  response: 612F1056256D72A18
+    5SERIES_FRP: 262.46
+  response: 612F1056256D73343
