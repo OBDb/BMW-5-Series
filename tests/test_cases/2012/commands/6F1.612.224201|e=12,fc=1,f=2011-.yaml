@@ -1,0 +1,5 @@
+command_id: 6F1.612.224201|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    5SERIES_BARO: 100.60156
+  response: 612F105624201649A
