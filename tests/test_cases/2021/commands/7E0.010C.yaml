@@ -12,4 +12,9 @@ test_cases:
     RPM: 0
   response: |-
     7E804410C0000
+    7E804411F000E
+- expected_values:
+    RPM: 0
+  response: |-
+    7E804410C0000
     7E804415E0000
