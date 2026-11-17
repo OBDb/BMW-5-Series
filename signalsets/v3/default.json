@@ -61,7 +61,7 @@
   ]},
 { "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "E5C7"}, "freq": 1, "filter": { "from": 2022 },
   "signals": [
-    {"id": "5SERIES_HVBAT_SOH_V2", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
+    {"id": "5SERIES_HVBAT_SOH_V2", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery health"}
   ]},
 { "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "E5CE"}, "freq": 1, "filter": { "from": 2022 },
   "signals": [
@@ -128,7 +128,7 @@
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "from": 2017 }, "dbgfilter": { "years": [2019], "from": 2023 },
   "signals": [
-    {"id": "5SERIES_ET", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "unit": "celsius" }, "name": "Engine temperature", "suggestedMetric": "engineCoolantTemperature"}
+    {"id": "5SERIES_ET", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "nullmin": -273.15, "unit": "celsius" }, "name": "Engine temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4402"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2015, 2016, 2017, 2019], "from": 2023 },
   "signals": [
@@ -140,7 +140,7 @@
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4408"}, "freq": 5, "filter": { "from": 2019 }, "dbgfilter": { "from": 2023 },
   "signals": [
-    {"id": "5SERIES_EOT_DME_K", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
+    {"id": "5SERIES_EOT_DME_K", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "nullmax": 3003.65, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "442C"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2019], "from": 2023 },
   "signals": [
@@ -397,9 +397,9 @@
   ]},
 { "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA37"}, "freq": 30, "filter": { "from": 2007 }, "dbgfilter": { "to": 2010, "from": 2024 },
   "signals": [
-    {"id": "5SERIES_TIME_D", "path": "Trips", "fmt": {           "len": 8, "max": 255, "nullmax": 255, "unit": "scalar" }, "name": "Time in drive"},
-    {"id": "5SERIES_TIME_S", "path": "Trips", "fmt": {"bix": 8,  "len": 8, "max": 255,                 "unit": "scalar" }, "name": "Time in sport"},
-    {"id": "5SERIES_TIME_M", "path": "Trips", "fmt": {"bix": 16, "len": 8, "max": 255,                 "unit": "scalar" }, "name": "Time in manual"}
+    {"id": "5SERIES_TIME_D", "path": "Trips", "fmt": {           "len": 32, "max": 4294967295, "nullmax": 4294967295, "unit": "scalar" }, "name": "Time in drive"},
+    {"id": "5SERIES_TIME_S", "path": "Trips", "fmt": {"bix": 32, "len": 32, "max": 4294967295,                        "unit": "scalar" }, "name": "Time in sport"},
+    {"id": "5SERIES_TIME_M", "path": "Trips", "fmt": {"bix": 64, "len": 32, "max": 4294967295,                        "unit": "scalar" }, "name": "Time in manual"}
   ]},
 { "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "cmd": {"22": "DB32"}, "freq": 0.25, "filter": { "from": 2017 }, "dbgfilter": { "from": 2024 },
   "signals": [
