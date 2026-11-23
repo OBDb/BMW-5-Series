@@ -4,6 +4,9 @@ test_cases:
     5SERIES_IGN_TIMING_3: 3
   response: 612F105624A4C001E
 - expected_values:
+    5SERIES_IGN_TIMING_3: 4.4
+  response: 612F105624A4C002C
+- expected_values:
     5SERIES_IGN_TIMING_3: 19
   response: 612F105624A4C00BE
 - expected_values:

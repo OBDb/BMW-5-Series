@@ -22,6 +22,9 @@ test_cases:
     5SERIES_OIL_TEMP: 72
   response: 612F10562450648AE
 - expected_values:
+    5SERIES_OIL_TEMP: 74
+  response: 612F1056245064A87
+- expected_values:
     5SERIES_OIL_TEMP: 106
   response: 612F1056245066AC8
 - expected_values:

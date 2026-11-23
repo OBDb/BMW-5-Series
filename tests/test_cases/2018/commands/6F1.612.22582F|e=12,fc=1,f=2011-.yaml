@@ -4,6 +4,9 @@ test_cases:
     5SERIES_CAT_T: 47.45
   response: 612F10562582F0C86
 - expected_values:
+    5SERIES_CAT_T: 351.65
+  response: 612F10562582F1868
+- expected_values:
     5SERIES_CAT_T: 439.25
   response: 612F10562582F1BD4
 - expected_values:
