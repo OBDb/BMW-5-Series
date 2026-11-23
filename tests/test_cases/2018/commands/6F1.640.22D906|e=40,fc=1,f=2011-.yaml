@@ -4,3 +4,7 @@ test_cases:
     5SERIES_AC_COMP_PWM: 0
     5SERIES_AC_COMP_STAT: 0
   response: 640F10662D906000000
+- expected_values:
+    5SERIES_AC_COMP_PWM: 28
+    5SERIES_AC_COMP_STAT: 1
+  response: 640F10662D90600011C

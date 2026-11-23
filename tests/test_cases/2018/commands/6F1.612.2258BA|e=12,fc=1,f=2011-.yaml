@@ -7,6 +7,9 @@ test_cases:
     5SERIES_CRANK_TQ: 33.9
   response: 612F1056258BA0153
 - expected_values:
+    5SERIES_CRANK_TQ: 35.1
+  response: 612F1056258BA015F
+- expected_values:
     5SERIES_CRANK_TQ: 103.3
   response: 612F1056258BA0409
 - expected_values:
