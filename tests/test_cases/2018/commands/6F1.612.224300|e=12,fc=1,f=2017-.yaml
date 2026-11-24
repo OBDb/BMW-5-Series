@@ -7,8 +7,8 @@ test_cases:
     5SERIES_ET: 34.05
   response: 612F1056243000C00
 - expected_values:
-    5SERIES_ET: 59.15
-  response: 612F1056243000CFB
+    5SERIES_ET: 110.75
+  response: 612F1056243000EFF
 - expected_values:
-    5SERIES_ET: 114.35
-  response: 612F1056243000F23
+    5SERIES_ET: 110.95
+  response: 612F1056243000F01
