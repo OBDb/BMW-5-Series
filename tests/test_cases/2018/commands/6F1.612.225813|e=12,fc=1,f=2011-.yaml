@@ -4,5 +4,5 @@ test_cases:
     5SERIES_LOAD: 0
   response: 612F10462581300
 - expected_values:
-    5SERIES_LOAD: 112.5
-  response: 612F10462581396
+    5SERIES_LOAD: 136.5
+  response: 612F104625813B6
