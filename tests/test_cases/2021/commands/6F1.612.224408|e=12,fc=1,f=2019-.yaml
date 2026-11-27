@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     5SERIES_EOT_DME_K: 34.35
   response: 612F1056244080C03
+- expected_values:
+    5SERIES_EOT_DME_K: 104.45
+  response: 612F1056244080EC0
