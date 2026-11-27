@@ -19,6 +19,12 @@ test_cases:
     629F1210000FFFD0000
     629F12200000000FFFF
 - expected_values:
+    5SERIES_BRAKE_P: 0.4
+  response: |-
+    629F1100F62DBE50004
+    629F1210000FFFF0000
+    629F122FFFA0000FFFF
+- expected_values:
     5SERIES_BRAKE_P: 0.7
   response: |-
     629F1100F62DBE50007
